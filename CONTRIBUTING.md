@@ -11,11 +11,10 @@ Localization is based on YAML files and is automatically detected by the applica
 The application loads localization files from the `Loc` directory located in the application installation folder.
 
 Default path:
+
 ```
-
 C:\Program Files\Clipboard Genie\Loc
-
-````
+```
 
 When this guide refers to files such as `controls.loc.yaml`,
 it always means the files located in that `Loc` directory.
@@ -28,18 +27,69 @@ It is recommended to work on the **latest version of this GitHub repository**
 instead of editing localization files directly inside the installed application.
 
 Why:
-- The repository may contain newer localization keys
-- Application files may be outdated
-- Application updates may overwrite local changes
+
+* The repository may contain newer localization keys
+* Application files may be outdated
+* Application updates may overwrite local changes
 
 ### Suggested workflow
 
 1. Clone or download the latest version of this repository
 2. Add or update translations in the repository files
 3. To test translations:
-   - Copy the modified `*.loc.yaml` files
-   - Paste them into the application's `Loc` directory
+
+   * Copy the modified `*.loc.yaml` files
+   * Paste them into the application's `Loc` directory
 4. Restart the application to verify the changes
+
+---
+
+## Repository Structure – `app` and `sdk`
+
+For better long-term organization, localization files in this repository are split into two logical parts:
+
+```
+app/
+  Loc/
+    *.loc.yaml
+
+sdk/
+  Loc/
+    *.loc.yaml
+```
+
+### Purpose of this split
+
+* **`app/Loc`** – localization used directly by the application UI
+* **`sdk/Loc`** – localization for shared SDK / reusable components
+
+This structure exists **only in the repository**.
+
+---
+
+## Testing Localization in the Application
+
+⚠️ **Important**
+
+The installed application does **not** use the `app` / `sdk` directory structure.
+
+To test localization changes:
+
+1. Collect **all `*.loc.yaml` files** from:
+
+   ```
+   app/Loc
+   sdk/Loc
+   ```
+2. Copy them into the application localization directory:
+
+   ```
+   C:\Program Files\Clipboard Genie\Loc
+   ```
+3. Restart the application
+
+All localization files must be placed together in a **single `Loc` directory`.
+Subdirectories are **not supported at runtime**.
 
 ---
 
@@ -55,7 +105,7 @@ SettingsWindow:
   Title:
     en: Clipboard Genie Settings
     pl: Ustawienia Clipboard Genie
-````
+```
 
 The localization key in this case is:
 
@@ -238,7 +288,7 @@ ActivateWindowActivity.Name
 
 Some localization values contain placeholders replaced at runtime.
 
-Examples:
+Example:
 
 ```yaml
 TestSuccess:
