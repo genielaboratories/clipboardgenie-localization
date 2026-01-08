@@ -1,0 +1,34 @@
+﻿Actipro.SR:
+  UIButtonCancelText:
+    en: Cancel
+    pl: Anuluj
+  UIButtonYesText:
+    en: _Yes
+    pl: _Tak
+  UIButtonNoText:
+    en: _No
+    pl: _Nie
+  UIButtonOKText:
+    en: OK
+    pl: OK
+  UIDialogTitleErrorText:
+    en: Error
+    pl: Błąd
+  UIDialogTitleInformationText:
+    en: Information
+    pl: Informacja
+  UIDialogTitleQuestionText:
+    en: Question
+    pl: Pytanie
+  UIDialogTitleWarningText:
+    en: Warning
+    pl: Ostrzeżenie
+
+Text:
+  ToggleSwitch.On:
+    en: On
+    pl: Włączony
+  ToggleSwitch.Off:
+    en: Off
+    pl: Wyłączony
+

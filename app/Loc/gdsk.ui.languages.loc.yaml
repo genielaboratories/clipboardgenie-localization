@@ -1,0 +1,223 @@
+LanguageName:
+  lang_af:
+    en: Afrikaans
+    pl: Afrikaans
+  lang_ar:
+    en: Arabic
+    pl: Arabski
+  lang_az:
+    en: Azerbaijani
+    pl: Azerbejdżański
+  lang_be:
+    en: Belarusian
+    pl: Białoruski
+  lang_bg:
+    en: Bulgarian
+    pl: Bułgarski
+  lang_bs:
+    en: Bosnian
+    pl: Bośniacki
+  lang_ca:
+    en: Catalan
+    pl: Kataloński
+  lang_cs:
+    en: Czech
+    pl: Czeski
+  lang_cy:
+    en: Welsh
+    pl: Walijski
+  lang_da:
+    en: Danish
+    pl: Duński
+  lang_de:
+    en: German
+    pl: Niemiecki
+  lang_de-CH:
+    en: German (Switzerland)
+    pl: Niemiecki (Szwajcaria)
+  lang_el:
+    en: Greek
+    pl: Grecki
+  lang_en:
+    en: English
+    pl: Angielski
+  lang_en-AU:
+    en: English (Australia)
+    pl: Angielski (Australia)
+  lang_en-GB:
+    en: English (UK)
+    pl: Angielski (Wielka Brytania)
+  lang_en-IN:
+    en: English (India)
+    pl: Angielski (Indie)
+  lang_en-NZ:
+    en: English (New Zealand)
+    pl: Angielski (Nowa Zelandia)
+  lang_en-US:
+    en: English (US)
+    pl: Angielski (USA)
+  lang_es:
+    en: Spanish
+    pl: Hiszpański
+  lang_es-419:
+    en: Spanish (Latin America)
+    pl: Hiszpański (Ameryka Łacińska)
+  lang_et:
+    en: Estonian
+    pl: Estoński
+  lang_fa:
+    en: Persian
+    pl: Perski
+  lang_fi:
+    en: Finnish
+    pl: Fiński
+  lang_fr:
+    en: French
+    pl: Francuski
+  lang_fr-CA:
+    en: French (Canada)
+    pl: Francuski (Kanada)
+  lang_gl:
+    en: Galician
+    pl: Galicyjski
+  lang_he:
+    en: Hebrew
+    pl: Hebrajski
+  lang_hi:
+    en: Hindi
+    pl: Hindi
+  lang_hr:
+    en: Croatian
+    pl: Chorwacki
+  lang_hu:
+    en: Hungarian
+    pl: Węgierski
+  lang_hy:
+    en: Armenian
+    pl: Ormiański
+  lang_id:
+    en: Indonesian
+    pl: Indonezyjski
+  lang_is:
+    en: Icelandic
+    pl: Islandzki
+  lang_it:
+    en: Italian
+    pl: Włoski
+  lang_ja:
+    en: Japanese
+    pl: Japoński
+  lang_kk:
+    en: Kazakh
+    pl: Kazachski
+  lang_kn:
+    en: Kannada
+    pl: Kannada
+  lang_ko:
+    en: Korean
+    pl: Koreański
+  lang_lt:
+    en: Lithuanian
+    pl: Litewski
+  lang_lv:
+    en: Latvian
+    pl: Łotewski
+  lang_mi:
+    en: Maori
+    pl: Maoryski
+  lang_mk:
+    en: Macedonian
+    pl: Macedoński
+  lang_mr:
+    en: Marathi
+    pl: Marathi
+  lang_ms:
+    en: Malay
+    pl: Malajski
+  lang_multi:
+    en: Multilingual
+    pl: Wielojęzyczny
+  lang_ne:
+    en: Nepali
+    pl: Nepalski
+  lang_nl:
+    en: Dutch
+    pl: Niderlandzki
+  lang_nl-BE:
+    en: Dutch (Belgium)
+    pl: Niderlandzki (Belgia)
+  lang_no:
+    en: Norwegian
+    pl: Norweski
+  lang_pl:
+    en: Polish
+    pl: Polski
+  lang_pt:
+    en: Portuguese
+    pl: Portugalski
+  lang_pt-BR:
+    en: Portuguese (Brazil)
+    pl: Portugalski (Brazylia)
+  lang_pt-PT:
+    en: Portuguese (Portugal)
+    pl: Portugalski (Portugalia)
+  lang_ro:
+    en: Romanian
+    pl: Rumuński
+  lang_ru:
+    en: Russian
+    pl: Rosyjski
+  lang_sk:
+    en: Slovak
+    pl: Słowacki
+  lang_sl:
+    en: Slovenian
+    pl: Słoweński
+  lang_sr:
+    en: Serbian
+    pl: Serbski
+  lang_sv:
+    en: Swedish
+    pl: Szwedzki
+  lang_sw:
+    en: Swahili
+    pl: Suahili
+  lang_ta:
+    en: Tamil
+    pl: Tamilski
+  lang_th:
+    en: Thai
+    pl: Tajska
+  lang_tl:
+    en: Tagalog
+    pl: Tagalski
+  lang_tr:
+    en: Turkish
+    pl: Turecki
+  lang_uk:
+    en: Ukrainian
+    pl: Ukraiński
+  lang_ur:
+    en: Urdu
+    pl: Urdu
+  lang_vi:
+    en: Vietnamese
+    pl: Wietnamski
+  lang_zh:
+    en: Chinese
+    pl: Chiński
+  lang_zh-CN:
+    en: Chinese (Simplified, China)
+    pl: Chiński (uproszczony, Chiny)
+  lang_zh-HK:
+    en: Chinese (Hong Kong)
+    pl: Chiński (Hongkong)
+  lang_zh-Hans:
+    en: Chinese (Simplified)
+    pl: Chiński (uproszczony)
+  lang_zh-Hant:
+    en: Chinese (Traditional)
+    pl: Chiński (tradycyjny)
+  lang_zh-TW:
+    en: Chinese (Traditional, Taiwan)
+    pl: Chiński (tradycyjny, Tajwan)

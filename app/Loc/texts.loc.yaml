@@ -1,0 +1,134 @@
+﻿Text:
+  ActivityTestSuccess:
+    en: Activity test successful
+    pl: Test zakończony sukcesem
+
+  ActivityTestFailed:
+    en: Activity test failed
+    pl: Test zakończony niepowodzeniem
+
+  Auth:
+    LoginRequiredTitle:
+      en: Login required
+      pl: Logowanie wymagane
+    LoginRequiredMessage:
+      en: You must be logged in to use this feature.
+      pl: Aby skorzystać z tej funkcji, musisz być zalogowany.
+
+  Clipboard:
+    NoContentMessage:
+      en: No clipboard data found. Please copy something before using this feature.
+      pl: Brak danych w schowku. Skopiuj coś, aby móc skorzystać z tej funkcji.
+    NoContentTitle:
+      en: No clipboard content
+      pl: Brak zawartości schowka
+
+  Copy:
+    en: Copy
+    pl: Kopiuj
+
+  CopyAsText:
+    en: Copy as text
+    pl: Kopiuj jako tekst
+
+  CopySelected:
+    en: Copy selected text
+    pl: Kopiuj zaznaczony tekst
+
+  ConfirmationTitle:
+    en: Confirmation
+    pl: Potwierdzenie
+
+  ErrorMessageTitle:
+    en: Error
+    pl: Błąd
+
+  File:
+    BMP:
+      en: BMP file
+      pl: Plik BMP
+    JPEG:
+      en: JPEG file
+      pl: Plik JPEG
+    PNG:
+      en: PNG file
+      pl: Plik PNG
+    TXT:
+      en: Text file
+      pl: Plik tekstowy
+
+  ListDragDropInfo:
+    en: Drag and drop items to change order
+    pl: Przeciągnij elementy, by zmienić kolejność
+
+  ListIsEmpty:
+    en: The list is empty
+    pl: Brak elementów w liście
+
+  Paste:
+    en: Paste
+    pl: Wklej
+
+  PasteAsText:
+    en: Paste as text
+    pl: Wklej jako tekst
+
+
+  OpenInDefaultApp:
+    en: Open in default application
+    pl: Otwórz w domyślnej aplikacji
+
+  OpenInDefaultBrowser:
+    en: Open in default browser
+    pl: Otwórz w domyślnej przeglądarce
+
+  OpenWith:
+    en: "Open with: {0}"
+    pl: "Otwórz z: {0}"
+
+  SignInButton:
+    en: Sign in now
+    pl: Zaloguj teraz
+
+  SelectPlaceholder:
+    en: Select...
+    pl: Wybierz...
+
+  TestButton:
+    en: Test
+    pl: Test
+
+TrayMenu:
+  CheckForUpdates:
+    en: Check for updates
+    pl: Sprawdź aktualizacje
+
+  ShowPaste:
+    en: Paste
+    pl: Wklej
+
+  ShowSettings:
+    en: Settings
+    pl: Ustawienia
+
+  Shutdown:
+    en: Exit
+    pl: Zamknij aplikacje
+
+  OpenContactsPage:
+    en: Send suggestions
+    pl: Prześlij sugestie
+
+NotificationButton:
+  CopyToClipboard:
+    en: Copy to Clipboard
+    pl: Kopiuj do schowka
+  OpenUri:
+    en: Open
+    pl: Otwórz
+  ShowInApp:
+    en: Show in app
+    pl: Pokaż w aplikacji
+  Close:
+    en: Close
+    pl: Zamknij

@@ -1,0 +1,13 @@
+Exception:
+  UserNotLoggedException:
+    en: You need to sign in to your account in the application settings.
+    pl: Musisz zalogować się do swojego konta w ustawieniach aplikacji.
+
+  ActivateWindowActivity:
+    WindowNotFound:
+      en: "Window not found (filter: {v.Expression})"
+      pl: "Okno nie zostało znalezione (filtr: {v.Expression})"
+
+  ZapierTriggersNotDefinedException:
+    en: "No triggers have been defined in your Zapier account."
+    pl: "Na Twoim koncie w Zapier nie zdefiniowano żadnych triggerów."

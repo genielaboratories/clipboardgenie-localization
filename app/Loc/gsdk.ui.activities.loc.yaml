@@ -1,0 +1,10 @@
+AiAgentActivity:
+  Name:
+    en: AI Agent
+    pl: Agent AI
+
+CopyToClipboardActivity:
+  Name:
+    en: Copy to clipboard
+    pl: Kopiuj do schowka
+

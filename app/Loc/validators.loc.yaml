@@ -1,0 +1,44 @@
+Field:
+  ActivityName:
+    en: Activity name
+    pl: Nazwa aktywności
+
+  AuthToken:
+    en: Auth token
+    pl: Token uwierzytelniania
+
+  ApiKeyName:
+    en: API Key
+    pl: Klucz API
+
+  ConnectionName:
+    en: Connection name
+    pl: Nazwa połączenia
+
+  ClipGroupName:
+    en: Pinboard group name
+    pl: Nazwa pinboard
+
+  PromptTemplate:
+    en: Prompt template
+    pl: Szablon promptu
+
+  SelectModel:
+    en: Model
+    pl: Model
+
+  UserName:
+    en: User name
+    pl: Nazwa użytkownika
+
+  UserPassword:
+    en: User password
+    pl: Hasło użytkownika
+
+  Url:
+    en: Server URL
+    pl: Adres URL serwera
+
+  WorkflowName:
+    en: Workflow name
+    pl: Nazwa workflow

@@ -1,0 +1,28 @@
+GoogleDrive:
+  ConnectorDescription:
+    en: "Connecting Google Drive requires authentication via OAuth2. You will be redirected to Google to grant the necessary permissions for the integration to work."
+    pl: "Połączenie z Dyskiem Google wymaga uwierzytelnienia za pomocą OAuth2. Zostaniesz przekierowany do Google, aby przyznać niezbędne uprawnienia dla działania integracji."
+
+GoogleGemini:
+  ConnectorDescription:
+    en: "Configuring Gemini requires providing an API key. Gemini is a free service; you can obtain your API key using the link provided below:"
+    pl: "Konfiguracja Gemini wymaga podania klucza API. Gemini jest usługą darmową, a klucz API możesz uzyskać za pomocą poniższego adresu:"
+
+McpServerSSE:
+  ConnectorName:
+    en: "MCP Server (SSE protocol)"
+    pl: "Serwer MCP (protokół SSE)"
+  ConnectorDescription:
+    en: "Connecting to an MCP server using the SSE protocol requires providing the server's URL. Ensure that the server is correctly configured and accessible."
+    pl: "Połączenie z serwerem MCP działajacym na protokole SSE wymaga podania adresu URL serwera. Upewnij się, że serwer jest poprawnie skonfigurowany i dostępny."
+
+OpenAI:
+  ConnectorDescription:
+    en: "Configuring OpenAI requires providing an API key. OpenAI is a paid service and does not offer a free tier. You can obtain an API key using the link below:"
+    pl: "Konfiguracja OpenAI wymaga podania klucza API. OpenAI jest płatną usługą i nie oferuje darmowego planu. Klucz API możesz uzyskać za pomocą poniższego adresu:"
+
+Slack:
+  ConnectorDescription:
+    en: "Connecting Slack requires authentication via OAuth2. You will be redirected to Slack to grant the necessary permissions for the integration to work."
+    pl: "Połączenie ze Slackiem wymaga uwierzytelnienia za pomocą OAuth2. Zostaniesz przekierowany do Slacka, aby przyznać niezbędne uprawnienia dla działania integracji."
+

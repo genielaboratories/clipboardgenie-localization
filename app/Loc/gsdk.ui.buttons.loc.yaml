@@ -1,0 +1,46 @@
+CancelButton:
+  Text:
+    en: Cancel
+    pl: Przerwij
+  Tooltip:
+    en: Cancel operation
+    pl: Przerwij operacje
+
+CreateButton:
+  Text:
+    en: Add item
+    pl: Utwórz
+  Tooltip:
+    en: Create a new item
+    pl: Utwórz nowy element
+
+DeleteButton:
+  Text:
+    en: Remove
+    pl: Usuń
+  Tooltip:
+    en: Remove item
+    pl: Usuń element
+
+EditButton:
+  Text:
+    en: Edit
+    pl: Edytuj
+  Tooltip:
+    en: Edit item
+    pl: Edytuj element
+
+FinishButton:
+  Text:
+    en: Finish
+    pl: Zakończ
+
+NextButton:
+  Text:
+    en: Next
+    pl: Dalej
+
+PreviousButton:
+  Text:
+    en: Back
+    pl: Cofnij

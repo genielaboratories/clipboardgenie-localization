@@ -1,0 +1,62 @@
+AppExceptionWindow:
+  Title:
+    en: Application exception
+    pl: Application exception
+
+DefineHotkeyWindow:
+  Title:
+    en: Define hotkey
+    pl: Definicja skrótu klawiszowego
+  PressKeysText:
+    en: Press a combination of keys to set this hotkey.
+    pl: Użyj kombinacji klawiszy, aby ustawiać skrót klawiszowy.
+  ResetHotkeyText:
+    en: Press backspace or delete to reset the hotkey.
+    pl: Wciśnij backspace lub delete, aby zresetować skrót klawiszowy.
+  InvalidShortcutText:
+    en: Invalid shortcut
+    pl: Nieprawidłowy skrót klawiszowy
+
+ExpressionEditorAddItemType:
+  AddGroup:
+    en: Add group
+    pl: Dodaj grupę
+  AddCondition:
+    en: Add condition
+    pl: Dodaj warunek
+
+ExpressionEditorWindow:
+  Title:
+    en: Expression editor
+    pl: Edytor wyrażeń
+  EnterValueWatermark:
+    en: Enter value...
+    pl: Wprowadź wartość...
+
+UserAccountControl:
+  LoginButton:
+    Text:
+      en: Login
+      pl: Zaloguj
+    Tooltip:
+      en: Login user
+      pl: Zaloguj użytkownika
+  LogoutButton:
+    Text:
+      en: Logout
+      pl: Wyloguj
+    Tooltip:
+      en: Logout user
+      pl: Wyloguj użytkownika
+  LoginFailedMessageTitle:
+    en: Login failed
+    pl: Próba logowania nie powiodła się
+  LoginInProgressInfoMessage:
+    en: Complete the login in your web browser, or click "Cancel" to stop the process
+    pl: Dokończ logowanie w przeglądarce internetowej lub kliknij „Przerwij”, aby zakończyć proces
+  NotLoggedInInfoMessage:
+    en: Click the "Login" button to open a web browser window and sign in
+    pl: Kliknij „Zaloguj”, aby otworzyć przeglądarkę i rozpocząć proces logowania.
+  UserNotLogged:
+    en: Not logged in
+    pl: Nie zalogowany

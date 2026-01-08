@@ -1,0 +1,181 @@
+ClipItemDataType:
+  Text:
+    en: Text
+    pl: Tekst
+  Image:
+    en: Image
+    pl: Obraz
+  Files:
+    en: Files
+    pl: Pliki
+  Audio:
+    en: Audio
+    pl: Audio
+
+ClipItemFilterExpression:
+  DataType:
+    en: Data type
+    pl: Typ danych
+  Text:
+    en: Text
+    pl: Tekst
+  Url:
+    Host:
+      en: Url Host
+      pl: Host adresu URL
+    Path:
+      en: Url Path
+      pl: Ścieżka adresu URL
+    Query:
+      en: URL Query
+      pl: Parametry URL
+    FullUrl:
+      en: Full URL
+      pl: Pełny adres URL
+
+
+ClipItemPayloadType:
+  None:
+    en: None
+    pl: Brak
+  PlainText:
+    en: Plain text
+    pl: Zwykły tekst
+  Json:
+    en: JSON
+    pl: JSON
+
+ClipItemTextSubtype:
+  Text:
+    en: Text
+    pl: Tekst
+  EmptyString:
+    en: Empty string
+    pl: Pusty tekst
+  Email:
+    en: Email
+    pl: Email
+  URL:
+    en: Web address
+    pl: Adres strony
+  Color:
+    en: Color
+    pl: Kolor
+  Rtf:
+    en: RTF
+    pl: RTF
+  Html:
+    en: HTML
+    pl: HTML
+  Csv:
+    en: CSV
+    pl: CSV
+
+DeleteHistoryRange:
+  LastHour:
+    en: Last hour
+    pl: Ostatnia godzina
+  Last24Hours:
+    en: Last 24 hours
+    pl: Ostatnie 24 godzin
+  Last7Days:
+    en: Last 7 days
+    pl: Ostatnie 7 dni
+  Last30Days:
+    en: Last 30 days
+    pl: Ostatnie 30 dni
+  Last365Days:
+    en: Last 365 days
+    pl: Ostatnie 365 dni
+  Everything:
+    en: Everything
+    pl: Wszystko
+
+GWindowFilterExpression:
+  ClassName:
+    en: Window class name
+    pl: Nazwa klasy okna
+  ProcessFileName:
+    en: Process file name
+    pl: Nazwa pliku procesu
+  ProcessFilePath:
+    en: Process file path (full)
+    pl: Pełna ścieżka pliku procesu
+  Title:
+    en: Window title
+    pl: Tytuł okna
+
+HistoryRetentionUnit:
+  Hours:
+    en: Hours
+    pl: Godziny
+  Days:
+    en: Days
+    pl: Dni
+  Weeks:
+    en: Weeks
+    pl: Tygodnie
+  Months:
+    en: Months
+    pl: Miesiące
+  Years:
+    en: Years
+    pl: Lata
+  Forever:
+    en: Forever
+    pl: Bez ograniczenia
+
+HttpAuthScheme:
+  None:
+    en: None
+    pl: Brak
+  Basic:
+    en: Basic
+    pl: Basic
+  BearerToken:
+    en: Bearer token
+    pl: Bearer token
+
+ShareItemRetentionOption:
+  OneDay:
+    en: After one day
+    pl: Po jednym dniu
+  ThreeDays:
+    en: After three days
+    pl: Po trzech dniach
+  OneWeek:
+    en: After one week
+    pl: Po jednym tygodniu
+  TenDays:
+    en: After ten days
+    pl: Po dziesięciu dniach
+  TwoWeeks:
+    en: After two weeks
+    pl: Po dwóch tygodniach
+  OneMonth:
+    en: After one month
+    pl: Po jednym miesiącu
+  TwoMonths:
+    en: After two months
+    pl: Po dwóch miesiącach
+  FourMonths:
+    en: After four months
+    pl: Po czterech miesiącach
+  SixMonths:
+    en: After six months
+    pl: Po sześciu miesiącach
+  OneYear:
+    en: After one year
+    pl: Po jednym roku
+
+SendKeystrokesItemType:
+  Text:
+    en: Text
+    pl: Tekst
+  Keycode:
+    en: Key code
+    pl: Klawisz
+  Delay:
+    en: Delay
+    pl: Opóźnienie
+

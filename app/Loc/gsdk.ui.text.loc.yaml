@@ -1,0 +1,161 @@
+Hotkey.NotSet:
+  en: Not set
+  pl: Nie ustawiono
+
+GAppThemeOption:
+  SystemDefault:
+    en: System default
+    pl: Zgodny z ustawieniami systemu
+  Light:
+    en: Light
+    pl: Jasny
+  Dark:
+    en: Dark
+    pl: Ciemny
+
+GCanRegisterHotkeyResult:
+  InvalidHotkey:
+    en: Invalid hotkey
+    pl: Nieprawidłowy skrót klawiatury
+  OK:
+    en: OK
+    pl: OK
+  SystemError:
+    en: The selected hotkey is unavailable (possibly used by another app or not allowed as a shortcut combination)
+    pl: Wybrany skrót klawiszowy jest niedostępny (być może jest już używany przez inną aplikację lub nie może być użyty jako kombinacja skrótu)
+  AlreadyUsedByUs:
+    en: Already used by our application
+    pl: Ten skrót klawiatury jest już używany w naszej aplikacji
+
+GExpressionLogicalOperator:
+  And:
+    en: And
+    pl: Oraz (and)
+  Or:
+    en: Or
+    pl: Lub (or)
+
+GExpressionRuleOperator:
+  Contains:
+    en: Contains
+    pl: Zawiera
+  NotContains:
+    en: Does not contain
+    pl: Nie zawiera
+  Equals:
+    en: Equals
+    pl: Równa się
+  NotEquals:
+    en: Not equals
+    pl: Nie równa się
+  StartsWith:
+    en: Starts with
+    pl: Zaczyna się od
+  EndsWith:
+    en: Ends with
+    pl: Kończy się na
+  Regex:
+    en: Matches regular expression
+    pl: Pasuje do wyrażenia regex
+
+GScreenSelectionMethod:
+  ByFocusedWindow:
+    en: Monitor with the active window
+    pl: Monitor z aktywnym oknem
+  ByMouse:
+    en: Monitor under the mouse cursor
+    pl: Monitor z kursorem myszy
+  Primary:
+    en: Primary monitor
+    pl: Monitor główny
+  ByName:
+    en: Select by monitor
+    pl: Wskaż monitor
+
+GUserInterfaceDensity:
+  Compact:
+    en: Compact
+    pl: Zwarty
+  Normal:
+    en: Normal
+    pl: Standardowy
+  Spacious:
+    en: Spacious
+    pl: Przestronny
+
+GWindowScreenPosition:
+  Top:
+    en: Top
+    pl: Na górze
+  Bottom:
+    en: Bottom
+    pl: Na dole
+  Center:
+    en: Center
+    pl: Na środku
+
+GWorkflowApplicationScope:
+  All:
+    en: in all applications
+    pl: we wszystkich aplikacjach
+  OnlySelected:
+    en: in selected applications
+    pl: w wybranych aplikacjach
+  ExcludeSelected:
+    en: except in all applications except selected
+    pl: we wszystkich aplikacjach, z wyjątkiem wybranych
+
+GWorkflowTriggerType:
+  GlobalHotkey:
+    en: Global hokey
+    pl: Globalny skrót klawiszowy
+  CopyToClipboard:
+    en: Item copied to clipboard
+    pl: Element skopiowany do schowka
+  CopyToClipboardFilter:
+    en: Item matching filter copied to the clipboard
+    pl: Element pasujący do filtra skopiowany do schowka
+  Manual:
+    en: Run manually from menu
+    pl: Uruchomienie z menu
+
+Text:
+  GenerateConnectionName:
+    en: "Connection to {m.Name}"
+    pl: "Połączenie z {m.Name}"
+
+  GenerateConnectionNameForUser:
+    en: "Connection to {m.Name} ({m.UserId})"
+    pl: "Połączenie z {m.Name} ({m.UserId})"
+
+  Info:
+    en: Information
+    pl: Informacja
+
+  InformationTitle:
+    en: Information
+    pl: Informacja
+
+  HasUnsavedChanges:
+    en: You have unsaved changes
+    pl: Masz niezapisane zmiany
+    CreateObject:
+      en: You have unsaved changes (new item)
+      pl: Masz niezapisane zmiany (nowy element)
+
+WaitWindow:
+  Canceling:
+    en: Canceling...
+    pl: Anulowanie...
+  PleaseWait:
+    en: Please wait...
+    pl: Proszę czekać...
+
+Validator:
+  RequiredAttribute:
+    en: The {0} filed is required.
+    pl: Pole {0} jest wymagane.
+
+  RestartAfterCrash:
+    en: Application encountered an error and was restarted automatically.
+    pl: Aplikacja wykryła błąd krytyczny i została automatycznia zrestartowana.

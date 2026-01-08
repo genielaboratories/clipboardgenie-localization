@@ -1,0 +1,743 @@
+AccountSettingsControl:
+  AccountInfoDescription:
+    en: Information about the current account and user session
+    pl: Informacje o bieżącym stanie konta i sesji użytkownika
+  AccountInfoHeader:
+    en: Login status
+    pl: Status logowania
+  GroupName:
+    en: User account
+    pl: Konto użytkownika
+  Description:
+    en: Manage access and user data
+    pl: Zarządzanie dostępem i danymi konta
+
+ActivitySettingsWindow:
+  ActivityNameLabel:
+    en: Activity name
+    pl: Nazwa aktywności
+  Title:
+    en: Activity settings   ({m.DisplayName})
+    pl: Ustawienia aktywności   ({m.DisplayName})
+  ItemDataTypeSelectorLabel:
+    en: Active data types
+    pl: Aktywne dla typów danych
+
+AiActivityBaseControl:
+  ConnectionLabel:
+    en: Connection
+    pl: Połączenie
+  EnableToolsLabel:
+    en: Enable tools
+    pl: Włącz narzędzia
+  CreateMcpServerConnection:
+    en: Create connection
+    pl: Utwórz połączenie
+  MainSettingsTabHeader:
+    en: AI settings
+    pl: Ustawienia AI
+  ModelLabel:
+    en: Model
+    pl: Model
+  McpServerConnectionNameLabel:
+    en: MCP server connection name
+    pl: Nazwa połączenia
+  McpServersLabel:
+    en: MCP servers
+    pl: Serwery MCP
+  PromptTemplateLabel:
+    en: Prompt template
+    pl: Szablon promptu
+  PromptTemplateInfo:
+    en: |-
+      You can use the following variables in this prompt:
+        - {{Clipboard.Text}}: The text of the current clipboard item.
+        - {{UILanguage}}: The language selected for the user interface.
+    pl: |-
+      W tym szablonie promptu możesz użyć następujących zmiennych:
+        - {{Clipboard.Text}}: Tekst aktualnego elementu schowka.
+        - {{UILanguage}}: Język wybrany dla interfejsu użytkownika.
+  ToolsTabHeader:
+    en: Tools
+    pl: Narzędzia
+
+AppSettingsControl:
+  GroupName:
+    en: Application
+    pl: Aplikacja
+  Description:
+    en: Manage the configuration and preferences for application
+    pl: Zarządzaj konfiguracją i preferencjami aplikacji
+  ClearHistoryButton:
+    en: Clear history
+    pl: Wyczyść historie
+  HistoryStorageDescription:
+    en: Select how long to keep clipboard history
+    pl: Wybierz czas przechowywania historii schowka
+  HistoryStorageHeader:
+    en: Clipboard history storage
+    pl: Przechowywanie historii schowka
+  LanguageDescription:
+    en: |
+      Change the current application language.
+      The changes will be applied after a restart.
+    pl: |
+      Zmień bieżący język aplikacji.
+      Zmiany zostaną zastosowane po ponownym uruchomieniu.
+  LanguageHeader:
+    en: Language
+    pl: Język
+  NeedRestart:
+    en: Restart the app for changes to take effect.
+    pl: Uruchom ponownie aplikację dla zastosowania zmian.
+  OpenSystemSettings:
+    en: Open system settings
+    pl: Otwórz ustawienia systemowe
+  PasteWindowPlacementDescription:
+    en: Adjust the position of the main application window
+    pl: Wybierz pozycje na ekranie dla głównego okna aplikacji
+  PasteWindowPlacementHeader:
+    en: Main window position
+    pl: Pozycja głównego okna aplikacji
+  PasteWindowSizeDescription:
+    en: |
+      Adjust the size of the main application window and its contents
+      (clipboard display) between 100% and 150%
+    pl: |
+      Dostosuj rozmiar głównego okna aplikacji i jego zawartości
+      (wyświetlającej schowek) w zakresie od 100% do 150%
+  PasteWindowSizeHeader:
+    en: Main window size
+    pl: Rozmiar głównego okna aplikacji
+  RestartNow:
+    en: Restart now
+    pl: Uruchom ponownie teraz
+  RunAtStartupHeader:
+    en: Run at startup
+    pl: Uruchamiaj przy starcie systemu
+  RunAtStartupDescription:
+    en: Launch the application automatically when your system starts
+    pl: Uruchamiaj aplikację automatycznie przy starcie systemu
+  ScreenSelectionDescription:
+    en: Select the monitor for display application windows
+    pl: Wybierz monitor do wyświetlenia okien aplikacji
+  ScreenSelectionHeader:
+    en: Monitor selection
+    pl: Wybór monitora
+  Theme:
+    en: Application theme
+    pl: Motyw aplikacji
+  UserInterfaceDensityDescription:
+    en: Change user interface density
+    pl: Zmień zagęszczenie interfejsu użytkownika
+  UserInterfaceDensityHeader:
+    en: User interface density
+    pl: Zagęszczenie interfejsu użytkownika
+
+AutomationService:
+  ActivityExecutionFailed:
+    en: "Activity execution failed: {v.ActivityName}"
+    pl: "Błąd rozszerzenia: {v.ActivityName}"
+  WorkflowExecutionFailed:
+    en: "Workflow execution failed: {v.Name}"
+    pl: "Błąd workflow: {v.Name}"
+  ExecutingActivity:
+    en: Executing {m.Name} ...
+    pl: Wykonywanie {m.Name} ...
+  ExecutingWorkflow:
+    en: Executing workflow {m.Name} ...
+    pl: Wykonywanie workflow {m.Name} ...
+  SignInButton:
+    en: Sign in
+    pl: Zaloguj się
+  UserNotLoggedExceptionTitle:
+    en: Sign in to use this feature
+    pl: Zaloguj się, aby skorzystać z tej funkcji
+
+  UserNotLoggedExceptionMessage:
+    en: |
+      You must be signed in to use this feature.
+
+      Use the button below to open the sign-in settings.
+    pl: |
+      Aby skorzystać z tej funkcji, musisz być zalogowany.
+
+      Użyj przycisku poniżej, aby przejść do ustawień logowania.
+
+ClipGroupWindow:
+  Title:
+    en: Pinboard
+    pl: Pinboard
+  GroupNameLabel:
+    en: "Name:"
+    pl: "Nazwa:"
+  GroupColorLabel:
+    en: "Color:"
+    pl: "Kolor:"
+
+ClipItemControl:
+  CopySharingInfoMenuItem:
+    en: Copy share link
+    pl: Kopiuj link udostępnienia
+  CopySharingInfoWithPasswordMenuItem:
+    en: Copy share link and password
+    pl: Kopiuj element udostępniony oraz hasło
+  DeleteShareMenuItem:
+    en: Delete shared data
+    pl: Usuń udostępniane dane
+  DeleteMenuItem:
+    en: Delete item
+    pl: Usuń element
+  FilesFooterPreviewInfo:
+    en: "{v.Files.Count} files"
+    pl: "{v.Files.Count} plików"
+  ImageFooterPreviewInfo:
+    en: "Size: {v.Width}x{v.Height} {v.BitsPerPixel} BPP"
+    pl: "Rozmiar: {v.Width}x{v.Height} {v.BitsPerPixel} BPP"
+  OpenUriTooltip:
+    en: "Open linked item:\n{v}"
+    pl: "Otwórz powiązany element:\n{v}"
+  OpenFileErrorDialogTitle:
+    en: Error opening file
+    pl: Błąd podczas otwierania pliku
+  PinGroupsMenuItem:
+    en: Pin item
+    pl: Przypnij element
+  PinToNewGroupMenuItem:
+    en: "Pin to new pinboard…"
+    pl: "Przypnij do nowego pinboardu…"
+  PinToNewGroupMenuItemTooltip:
+    en: Create a new pinboard and pin this item to it
+    pl: Utwórz nowy pinboard i przypnij do niego ten element
+  ShareItemCancelJob:
+    en: Cancel operation
+    pl: Anuluj operacje
+  ShareItemLinkBadge:
+    en: Share link
+    pl: Link udostępnienia
+  ShareItemSubmenu:
+    en: Sharing
+    pl: Udostępnianie
+  ShareMenuItem:
+    en: Share item
+    pl: Udostępnij element
+  ShareSettingsMenuItem:
+    en: Share settings
+    pl: Ustawienia udostępniania
+  RenameMenuItem:
+    en: Rename item
+    pl: Zmień nazwę elementu
+  RenameItemDialogTitle:
+    en: Rename item
+    pl: Zmiana nazwy elementu
+  RenameItemDialogLabel:
+    en: "Name:"
+    pl: "Nazwa:"
+  RunMenuItem:
+    en: Run
+    pl: Uruchom
+  SaveAsMenuItem:
+    en: Save as
+    pl: Zapisz jako
+  TextFooterPreviewInfo:
+    en: "Length: {v} characters"
+    pl: "Długość: {v} znaków"
+  UnpinItemMenuItem:
+    en: Unpin item
+    pl: Odepnij element
+
+DeleteHistoryWindow:
+  Title:
+    en: Delete clipboard history
+    pl: Usuń historie schowka
+  InfoMessage:
+    en: |
+      Elements that were used within the specified time range will be deleted
+      Elements placed in pinboards will not be deleted.
+    pl: |
+      Elementy użyte w wybranym zakresie czasowym zostaną usunięte.
+      Elementy umieszczane w pinboardach nie zostaną usunięte.
+  TimeRangeLabel:
+    en: "History time range to delete:"
+    pl: "Przedział czasowy do usunięcia:"
+  DeleteHistoryConfirmation:
+    en: "Are you sure you want to delete clipboard history from selected time range?"
+    pl: "Czy na pewno chcesz usunąć historie schowka z wskazanego przedziału czasowego?"
+
+ExtensionsSettingsControl:
+  GroupName:
+    en: Extensions
+    pl: Rozszerzenia
+  CreateActivityTooltip:
+    en: Create new activity
+    pl: Utwórz nowe rozszerzenie
+  Description:
+    en: Manage the extensions and plugins
+    pl: Zarządzaj rozszerzeniami i wtyczkami
+  DeleteActivityConfirmation:
+    en: "Are you sure you want to delete '{v.Name}'?"
+    pl: "Czy na pewno chcesz usunąć '{v.Name}'?"
+  EditActivityTooltip:
+    en: Edit activity settings
+    pl: Edytuj ustawienia rozszerzenia
+
+ExternalConnectionSelector:
+  CreateConnectionToolTip:
+    en: Create new connection to external service
+    pl: Utwórz nowe połączenie z serwisem zewnętrznym
+  EditConnectionToolTip:
+    en: Edit connection to external service
+    pl: Edytuj połączenie z serwisem zewnętrznym
+  NotConnectedMessage:
+    en: Connection to external service is not fully configured
+    pl: Połączenie z serwisem nie jest w pełni skonfigurowane
+
+ExternalConnectionSettingsWindow:
+  Title:
+    en: Define external connection
+    pl: Definicja połączenia zewnętrznego
+  ApiKeyLabel:
+    en: API key
+    pl: Klucz API
+  ConnectorTypeLabel:
+    en: Select connector type
+    pl: Wybierz typ połączenia
+  ConnectionNameLabel:
+    en: Connection name
+    pl: Nazwa połączenia
+  DeleteConnectionConfirmation:
+    en: "Are you sure you want to delete connection?"
+    pl: "Czy na pewno chcesz usunąć połączenie ?"
+  DisconnectButton:
+    Text:
+      en: Disconnect
+      pl: Rozłącz
+    Tooltip:
+      en: Disconnect from external service and remove connection data
+      pl: Rozłącz z serwisem zewnętrznym i usuń dane połączenia
+  ExternalUserIdLabel:
+    en: "External account id: "
+    pl: "Identyfikator użytkownika: "
+  LoginInProgressInfoMessage:
+    en: Complete the login in your web browser, or click "Cancel" to stop the process
+    pl: Dokończ logowanie w przeglądarce internetowej lub kliknij „Przerwij”, aby zakończyć proces
+  LoginButton:
+    Text:
+      en: Connect
+      pl: Połącz
+    Tooltip:
+      en: Connect to external service
+      pl: Połącz z serwisem zewnętrznym
+  OAuthUserNotLogged:
+    en: Not logged in
+    pl: Nie zalogowany
+  NotLoggedInInfoMessage:
+    en: Click the "Connect" button to open a web browser window and sign in
+    pl: Kliknij „Połącz”, aby otworzyć przeglądarkę i rozpocząć proces połączenia z serwisem
+  UrlLabel:
+    en: Server URL
+    pl: Adres URL serwera
+
+
+ExternalConnectionsListControl:
+  GroupName:
+    en: Connections
+    pl: Połączenia
+  ColumnName:
+    en: Connection name
+    pl: Nazwa połączenia
+  ColumnActions:
+    en: Actions
+    pl: Działania
+  CreateConnection:
+    en: Create connection
+    pl: Utwórz połączenie
+  Description:
+    en: Connection settings with external services
+    pl: Ustawienia połączeń z zewnętrznymi serwisami
+  DeleteConnectionConfirmation:
+    en: "Are you sure you want to connection named: {m.Name}?"
+    pl: "Czy na pewno chcesz usunąć połączenie o nazwie: {m.Name}?"
+
+HistorySettingsControl:
+  GroupName:
+    en: History
+    pl: Historia
+  Description:
+    en: Manage clipboard history options
+    pl: Zarządzanie opcjami historii schowka
+  ClearHistoryButton:
+    en: Clear history
+    pl: Wyczyść historie
+  HistoryStorageDescription:
+    en: Select how long to keep clipboard history
+    pl: Wybierz czas przechowywania historii schowka
+  HistoryStorageHeader:
+    en: Clipboard history storage
+    pl: Przechowywanie historii schowka
+
+IgnoredApplicationsSettingsControl:
+  GroupName:
+    en: Ignored applications
+    pl: Ignorowane aplikacje
+  Description:
+    en: Manage applications excluded from clipboard monitoring
+    pl: Zarządzanie aplikacjami wykluczonymi z monitorowania schowka
+  AddApplication:
+    en: Add application
+    pl: Dodaj aplikację
+  ColumnName:
+    en: Application name
+    pl: Nazwa aplikacji
+  DeleteApplicationConfirmation:
+    en: "Are you sure you want to remove '{m.Description}' from the ignored applications list?"
+    pl: "Czy na pewno chcesz usunąć '{m.Description}' z listy ignorowanych aplikacji?"
+  SelectExecutableTitle:
+    en: Select executable (.exe, .com)
+    pl: Wybierz plik wykonywalny (.exe, .com)
+
+KeystrokesEditorWindow:
+  Title:
+    en: Keystrokes editor
+    pl: Edytor sekwencji klawiszy
+  AddKeystrokeItemButton:
+    en: Add item
+    pl: Dodaj element
+  SecondsLabel:
+    en: "(sec)"
+    pl: "(sekund)"
+  TextItemWatermark:
+    en: Enter text
+    pl: Wprowadź tekst
+
+n8nCategoryControl:
+  APIKeyText:
+    en: API Key
+    pl: Klucz API
+  APIKeyMessage:
+    en: Here is your API key — make sure to copy it
+    pl: To jest Twój klucz API - upewnij się że go skopiowałeś
+  CreateAPIKeyButton:
+    en: Generate API Key
+    pl: Wygeneruj klucz API
+  InfoMessage:
+    en: |
+      To connect with n8n, generate an API key using the button below.
+
+      The key is not stored anywhere and will appear here only after it’s generated.
+      Copy it and use it in your n8n platform.
+      Regenerating the key will invalidate the previous one.
+    pl: |
+      Aby połączyć się z n8n, wygeneruj klucz API za pomocą przycisku poniżej.
+
+      Klucz nie jest nigdzie zapisywany — pojawi się tutaj tylko po wygenerowaniu.
+      Skopiuj go i użyj w platformie n8n.
+      Ponowne wygenerowanie klucza unieważni poprzedni.
+  UserNotLoggedTitle:
+    en: Sign in to use this feature
+    pl: Zaloguj się, aby skorzystać z tej funkcji
+  UserNotLoggedMessage:
+    en: |
+      You must be signed in to use this feature.
+
+      Close this window and go to the "User account" tab to log in.
+    pl: |
+      Aby skorzystać z tej funkcji, musisz być zalogowany.
+
+      Zamknij to okno i przejdź do zakładki "Konto użytkownika" by się zalogować.
+
+PasteWindow:
+  ActiveAppLabel:
+    en: "Active:"
+    pl: "Aktywna:"
+  DeleteClipGroupMenuItem:
+    en: Delete pinboard
+    pl: Usuń pinboard
+  DeleteClipGroupConfirmation:
+    en: |
+      Are you sure you want to delete pinboard named: {m.Name}?
+
+      If you delete this pinboard, all items in it will moved to the main group.
+    pl: |
+      Czy na pewno chcesz usunąć pinboard o nazwie: {m.Name}?
+
+      Jeżeli usuniesz ten pinboard, wszystkie elementy w nim znajdujące sie w nim zostaną przeniesione do grupy głównej.
+  DeleteClipItemConfirmation:
+    en: "Are you sure you want to delete item?"
+    pl: "Czy na pewno chcesz usunąć element?"
+  EditClipGroupMenuItem:
+    en: Edit pinboard
+    pl: Edytuj pinboard
+  CreateClipGroupTip:
+    en: Create new pinboard
+    pl: Stwórz nowy pinboard
+  RunMenuItem:
+    en: Run
+    pl: Uruchom
+  RunWorkflowsMenuItem:
+    en: Run workflows
+    pl: Uruchom workflow
+  SearchOnlyInSharedPrefix:
+    en: Shared
+    pl: Udostępnione
+  SearchOnlyInSharedLabel:
+    en: Only shared items
+    pl: Tylko udostępnione
+  SearchText:
+    en: Search ...
+    pl: Szukaj ...
+  SettingsButton:
+    en: Settings
+    pl: Ustawienia
+  ShareSignInTitle:
+    en: Sign in to use cloud features
+    pl: Zaloguj się, aby korzystać z chmury
+  ShareSignInMessage:
+    en: |
+      You must be signed in to use this feature.
+
+      Once signed in, you can share your clipboard and enjoy 10 GB of free cloud storage.
+
+      Use the button below to open the sign-in settings.
+    pl: |
+      Aby skorzystać z tej funkcji, musisz być zalogowany.
+
+      Po zalogowaniu udostępnisz schowek i zyskasz 10 GB w chmurze.
+
+      Użyj przycisku poniżej, by przejść do ustawień logowania.
+  StartProcessConfirmationTitle:
+    en: "Warning: external process execution"
+    pl: "Uwaga: uruchomienie zewnętrznego programu"
+  StartProcessConfirmation:
+    en: "The extension wants to run the process: {v}\n\nDo you want to continue?"
+    pl: "Rozszerzenie chce uruchomić program:\n{v}\n\nCzy chcesz kontynuować?"
+  StartProcessUnsupportedUri:
+    en: "The format of the provided address or path is not recognized:\n{v}"
+    pl: "Nie można rozpoznać formatu adresu lub ścieżki:\n{v}"
+
+ScreenSelectionControl:
+  ScreenNumber:
+    en: "Monitor number:"
+    pl: "Numer monitora:"
+
+SetupWizardWindow:
+  Title:
+    en: Clipboard Genie setup Wizard
+    pl: Konfigurator Clipboard Genie
+  AccountSettingsPage:
+    Header:
+      en: Sign in and get 10 GB of free cloud storage
+      pl: Zaloguj się i zyskaj 10 GB w chmurze
+    Description:
+      en: |
+        A user account is required to enable certain features of the application, such as sharing clipboard items via the cloud.
+
+        Each user receives 10 GB of free cloud storage for their data.
+
+        You can sign in now or later in the application settings if you prefer.
+      pl: |
+        Konto użytkownika jest potrzebne do działania wybranych funkcji programu, takich jak udostępnianie elementów schowka poprzez chmurę.
+
+        Każdy użytkownik otrzymuje 10 GB darmowej przestrzeni w chmurze na swoje dane.
+
+        Możesz zalogować się teraz lub później w ustawieniach programu, jeśli będziesz tego potrzebował.
+  AiSettingsPage:
+    Header:
+      en: OpenAI settings
+      pl: Ustawienia OpenAI
+    Description:
+      en: |
+        Predefined activities allow for processing clipboard items using AI. This requires providing your OpenAI API key.
+
+        You can enter the key now or add it later in the program settings.
+      pl: |
+        Predefiniowane operacje pozwalają na przetwarzanie elementów schowka za pomocą AI. Wymaga to podania klucza API dla OpenAI.
+
+        Możesz wprowadzić klucz teraz, lub dodać go później w ustawieniach programu.
+  AppHotKeyPage:
+    Header:
+      en: Set application hotkey
+      pl: Ustaw skrót aplikacji
+    Description:
+      en: The application uses a global keyboard shortcut that allows you to activate it. If you want to change the shortcut, click the button below.
+      pl: Aplikacja korzysta z globalnego skrótu klawiszowego, który pozwala na jej aktywację. Jeśli chcesz zmienić skrót, kliknij przycisk poniżej.
+  WelcomePage:
+    Header1:
+      en: Thank you for installing Clipboard Genie
+      pl: Dziękujemy za zainstalowanie Clipboard Genie
+    Header2:
+      en: a Genie Laboratories product
+      pl: produkt Genie Laboratories
+    Description:
+      en: |
+        Get ready to set up application quickly and easily. In just a few simple steps, you'll have everything configured and ready to go.
+
+        Let’s get started!
+      pl: |
+        Ten kreator pozwoli Ci szybko i łatwo skonfigurować aplikacje Clipboard Genie.
+
+        Zaczynamy!
+
+SettingsWindow:
+  Title:
+    en: Clipboard Genie Settings
+    pl: Ustawienia Clipboard Genie
+
+ShareItemWindow:
+  Title:
+    en: Share item
+    pl: Udostępnij element
+  ExpirationDateDistance:
+    en:
+    pl: "{m} dni"
+  GeneratePasswordButton:
+    en: Generate
+    pl: Generuj
+  InfoMessage:
+    en: |
+      Selected item will be sent to the cloud and will be available under a unique link.
+      You can add a message, set expiration time and optionally secure access with a password.
+    pl: |
+      Wybrany element zostanie przesłany do chmury i będzie dostępny pod unikalnym linkiem.
+      Możesz dodać wiadomość, ustawić czas wygaśnięcia oraz opcjonalnie zabezpieczyć dostęp hasłem.
+  MessageLabel:
+    en: Message shown on the page (optional)
+    pl: Wiadomość wyświetlana na stronie (opcjonalnie)
+  PasswordLabel:
+    en: Password (optional)
+    pl: Hasło (opcjonalnie)
+  RetentionLabel:
+    en: Automatic cloud deletion
+    pl: Automatyczne usunięcie z chmury
+
+ShortcutsSettingsControl:
+  GroupName:
+    en: Keyboard shortcuts
+    pl: Skróty klawiatury
+  Description:
+    en: Manage application keyboard shortcuts
+    pl: Zarządzanie skrótami klawiatury
+  AppHotKeyDescription:
+    en: Set the hotkey used to activate the application.
+    pl: Ustaw skrót klawiaturowy używany do aktywacji aplikacji.
+  AppHotKeyHeader:
+    en: Application hotkey
+    pl: Skrót aplikacji
+  GlobalShortcutsHeader:
+    en: Global shortcuts
+    pl: Skróty globalne
+  CopyKeyGestureDescription:
+    en: Set the hotkey used for copy selected item to the system clipboard
+    pl: Skrót klawiaturowy dla wklejenia wybranego elementu do schowka systemowego
+  CopyKeyGestureHeader:
+    en: Copy to system clipboard
+    pl: Skopiuj do schowka systemowego
+  CopyAsTextKeyGestureDescription:
+    en: Set the hotkey used for copy selected item as text to the system clipboard
+    pl: Skrót klawiaturowy dla wklejenia wybranego elementu do schowka systemowego
+  CopyAsTextKeyGestureHeader:
+    en: Copy to system clipboard as text
+    pl: Skopiuj jako tekst do schowka systemowego
+  PasteWindowKeyGesturesHeader:
+    en: Paste window shortcuts
+    pl: Skróty okna schowka
+  PasteKeyGestureDescription:
+    en: Set the hotkey used to paste selected item to the current application.
+    pl: Skrót klawiaturowy dla wklejenia wybranego elementu do aktualnej aplikacji
+  PasteKeyGestureHeader:
+    en: Paste to current application
+    pl: Wklej do aktualnej aplikacji
+  PasteAsTextKeyGestureDescription:
+    en: Set the hotkey used to paste selected item as text to the current application.
+    pl: Skrót klawiaturowy dla wklejenia wybranego elementu jako tekst do aktualnej aplikacji
+  PasteAsTextKeyGestureHeader:
+    en: Paste as text to current application
+    pl: Wklej jako tekst do aktualnej aplikacji
+
+
+WorkflowActivityEditorControl:
+  AddExtensionActivity:
+    en: Add activity from extensions
+    pl: Dodaj aktywność z rozszerzeń
+  AddActivityButton:
+    en: Add activity
+    pl: Dodaj aktywność
+  DeleteActivityConfirmation:
+    en: "Are you sure you want to delete '{v.Name}'?"
+    pl: "Czy na pewno chcesz usunąć '{v.Name}'?"
+
+WorkflowSettingsWindow:
+  ActivitiesLabel:
+    en: "Activities:"
+    pl: "Aktywności:"
+  AddApplicationButton:
+    en: Add application
+    pl: Dodaj aplikacje
+  AddTriggerButton:
+    en: Add trigger
+    pl: Dodaj zdarzenie
+  ApplicationScopeLabel:
+    en: "Application scope:"
+    pl: "Zakres aplikacji:"
+  ClipboardTriggerLabel:
+    en: Item copied to clipboard
+    pl: Element skopiowany do schowka
+  ClipboardFilterTriggerLabel:
+    en: Item matching filter copied to the clipboard
+    pl: Element pasujący do filtra skopiowany do schowka
+  ClipboardFilterWatermark:
+    en: Use button to set clipboard filter
+    pl: Użyj przycisku dla ustawienia filtru
+  DeleteApplicationConfirmation:
+    en: "Are you sure you want to delete application '{m.ApplicationDescription}'?"
+    pl: "Czy na pewno chcesz usunąć aplikację '{m.ApplicationDescription}'?"
+  DeleteTriggerConfirmation:
+    en: "Are you sure you want to delete trigger?"
+    pl: "Czy na pewno chcesz usunąć zdarzenie?"
+  GlobalHotkeyTriggerLabel:
+    en: Global hokey
+    pl: Globalny skrót klawiszowy
+  HotkeyTriggerLabel:
+    en: Keyboard shortcut
+    pl: Skrót klawiszowy
+  PassKeyToSystemLabel:
+    en: Pass key to system
+    pl: Przekaż klawisz do systemu
+  ManualTriggerLabel:
+    en: Run manually from menu
+    pl: Uruchomienie z menu
+  SelectExecutableTitle:
+    en: Select executable (.exe, .com)
+    pl: Wybierz plik wykonywalny (.exe, .com)
+  TestClipboardFilterPassed:
+    en: Current clipboard item meets the condition
+    pl: Aktualny element schowka spełnia warunek
+  TestClipboardFilterNotPassed:
+    en: Current clipboard item does not meet the condition
+    pl: Aktualny element schowka nie spełnia warunku
+  TestClipboardFilterTooltip:
+    en: Check if the current clipboard item meets the condition
+    pl: Sprawdź czy aktualny element schowka spełnia warunek
+  Title:
+    en: Workflow Settings
+    pl: Ustawienia workflow
+  TriggersLabel:
+    en: "Trigger by any of the following events:"
+    pl: "Wyzwalaj przez dowolne z poniższych zdarzeń:"
+  WorkflowNameLabel:
+    en: Workflow name
+    pl: Nazwa workflow
+
+WorkflowsListControl:
+  GroupName:
+    en: Workflows
+    pl: Workflows
+  Description:
+    en: Workflow management
+    pl: Tworzenie i zarządzanie workflow
+  DeleteWorkflowConfirmation:
+    en: "Are you sure you want to delete '{v.Name}'?"
+    pl: "Czy na pewno chcesz usunąć '{v.Name}'?"
+  CreateWorkflowButton:
+    en: Create workflow
+    pl: Utwórz workflow
