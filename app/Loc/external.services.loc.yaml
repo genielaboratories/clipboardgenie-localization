@@ -2,27 +2,39 @@ GoogleDrive:
   ConnectorDescription:
     en: "Connecting Google Drive requires authentication via OAuth2. You will be redirected to Google to grant the necessary permissions for the integration to work."
     pl: "Połączenie z Dyskiem Google wymaga uwierzytelnienia za pomocą OAuth2. Zostaniesz przekierowany do Google, aby przyznać niezbędne uprawnienia dla działania integracji."
+    zh-TW: "連接 Google 雲端硬碟需要透過 OAuth2 進行驗證。您將被重新導向到 Google 以授予整合運作所需的權限。"
+    zh-CN: "连接 Google 云端硬盘需要通过 OAuth2 进行认证。您将被重定向到 Google 以授予集成工作所需的权限。"
 
 GoogleGemini:
   ConnectorDescription:
     en: "Configuring Gemini requires providing an API key. Gemini is a free service; you can obtain your API key using the link provided below:"
     pl: "Konfiguracja Gemini wymaga podania klucza API. Gemini jest usługą darmową, a klucz API możesz uzyskać za pomocą poniższego adresu:"
+    zh-TW: "設定 Gemini 需要提供 API 金鑰。Gemini 是一項免費服務；您可以使用下方提供的連結取得您的 API 金鑰："
+    zh-CN: "配置 Gemini 需要提供 API 密钥。Gemini 是一项免费服务；您可以使用下面提供的链接获取您的 API 密钥："
 
 McpServerSSE:
   ConnectorName:
     en: "MCP Server (SSE protocol)"
     pl: "Serwer MCP (protokół SSE)"
+    zh-TW: "MCP 伺服器（SSE 協定）"
+    zh-CN: "MCP 服务器（SSE 协议）"
   ConnectorDescription:
     en: "Connecting to an MCP server using the SSE protocol requires providing the server's URL. Ensure that the server is correctly configured and accessible."
     pl: "Połączenie z serwerem MCP działajacym na protokole SSE wymaga podania adresu URL serwera. Upewnij się, że serwer jest poprawnie skonfigurowany i dostępny."
+    zh-TW: "使用 SSE 協定連接到 MCP 伺服器需要提供伺服器的 URL。請確保伺服器已正確設定且可存取。"
+    zh-CN: "使用 SSE 协议连接到 MCP 服务器需要提供服务器的 URL。请确保服务器已正确配置且可访问。"
 
 OpenAI:
   ConnectorDescription:
     en: "Configuring OpenAI requires providing an API key. OpenAI is a paid service and does not offer a free tier. You can obtain an API key using the link below:"
     pl: "Konfiguracja OpenAI wymaga podania klucza API. OpenAI jest płatną usługą i nie oferuje darmowego planu. Klucz API możesz uzyskać za pomocą poniższego adresu:"
+    zh-TW: "設定 OpenAI 需要提供 API 金鑰。OpenAI 是一項付費服務，不提供免費方案。您可以使用下方連結取得 API 金鑰："
+    zh-CN: "配置 OpenAI 需要提供 API 密钥。OpenAI 是一项付费服务，不提供免费套餐。您可以使用下面的链接获取 API 密钥："
 
 Slack:
   ConnectorDescription:
     en: "Connecting Slack requires authentication via OAuth2. You will be redirected to Slack to grant the necessary permissions for the integration to work."
     pl: "Połączenie ze Slackiem wymaga uwierzytelnienia za pomocą OAuth2. Zostaniesz przekierowany do Slacka, aby przyznać niezbędne uprawnienia dla działania integracji."
+    zh-TW: "連接 Slack 需要透過 OAuth2 進行驗證。您將被重新導向到 Slack 以授予整合運作所需的權限。"
+    zh-CN: "连接 Slack 需要通过 OAuth2 进行认证。您将被重定向到 Slack 以授予集成工作所需的权限。"
 

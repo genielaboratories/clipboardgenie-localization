@@ -2,45 +2,67 @@ CancelButton:
   Text:
     en: Cancel
     pl: Przerwij
+    zh-TW: 取消
+    zh-CN: 取消
   Tooltip:
     en: Cancel operation
     pl: Przerwij operacje
+    zh-TW: 取消操作
+    zh-CN: 取消操作
 
 CreateButton:
   Text:
     en: Add item
     pl: Utwórz
+    zh-TW: 新增項目
+    zh-CN: 新增项目
   Tooltip:
     en: Create a new item
     pl: Utwórz nowy element
+    zh-TW: 建立新項目
+    zh-CN: 创建新项目
 
 DeleteButton:
   Text:
     en: Remove
     pl: Usuń
+    zh-TW: 移除
+    zh-CN: 移除
   Tooltip:
     en: Remove item
     pl: Usuń element
+    zh-TW: 移除項目
+    zh-CN: 移除项目
 
 EditButton:
   Text:
     en: Edit
     pl: Edytuj
+    zh-TW: 編輯
+    zh-CN: 编辑
   Tooltip:
     en: Edit item
     pl: Edytuj element
+    zh-TW: 編輯項目
+    zh-CN: 编辑项目
 
 FinishButton:
   Text:
     en: Finish
     pl: Zakończ
+    zh-TW: 完成
+    zh-CN: 完成
 
 NextButton:
   Text:
     en: Next
     pl: Dalej
+    zh-TW: 下一步
+    zh-CN: 下一步
 
 PreviousButton:
   Text:
     en: Back
     pl: Cofnij
+    zh-TW: 返回
+    zh-CN: 返回

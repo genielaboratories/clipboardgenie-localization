@@ -2,61 +2,95 @@ AppExceptionWindow:
   Title:
     en: Application exception
     pl: Application exception
+    zh-TW: 應用程式例外
+    zh-CN: 应用程序异常
 
 DefineHotkeyWindow:
   Title:
     en: Define hotkey
     pl: Definicja skrótu klawiszowego
+    zh-TW: 定義快捷鍵
+    zh-CN: 定义快捷键
   PressKeysText:
     en: Press a combination of keys to set this hotkey.
     pl: Użyj kombinacji klawiszy, aby ustawiać skrót klawiszowy.
+    zh-TW: 按下按鍵組合以設定此快捷鍵。
+    zh-CN: 按下按键组合以设置此快捷键。
   ResetHotkeyText:
     en: Press backspace or delete to reset the hotkey.
     pl: Wciśnij backspace lub delete, aby zresetować skrót klawiszowy.
+    zh-TW: 按下退格鍵或刪除鍵以重設快捷鍵。
+    zh-CN: 按下退格键或删除键以重置快捷键。
   InvalidShortcutText:
     en: Invalid shortcut
     pl: Nieprawidłowy skrót klawiszowy
+    zh-TW: 無效的快捷鍵
+    zh-CN: 无效的快捷键
 
 ExpressionEditorAddItemType:
   AddGroup:
     en: Add group
     pl: Dodaj grupę
+    zh-TW: 新增群組
+    zh-CN: 新增组
   AddCondition:
     en: Add condition
     pl: Dodaj warunek
+    zh-TW: 新增條件
+    zh-CN: 新增条件
 
 ExpressionEditorWindow:
   Title:
     en: Expression editor
     pl: Edytor wyrażeń
+    zh-TW: 運算式編輯器
+    zh-CN: 表达式编辑器
   EnterValueWatermark:
     en: Enter value...
     pl: Wprowadź wartość...
+    zh-TW: 輸入值...
+    zh-CN: 输入值...
 
 UserAccountControl:
   LoginButton:
     Text:
       en: Login
       pl: Zaloguj
+      zh-TW: 登入
+      zh-CN: 登录
     Tooltip:
       en: Login user
       pl: Zaloguj użytkownika
+      zh-TW: 登入使用者
+      zh-CN: 登录用户
   LogoutButton:
     Text:
       en: Logout
       pl: Wyloguj
+      zh-TW: 登出
+      zh-CN: 登出
     Tooltip:
       en: Logout user
       pl: Wyloguj użytkownika
+      zh-TW: 登出使用者
+      zh-CN: 登出用户
   LoginFailedMessageTitle:
     en: Login failed
     pl: Próba logowania nie powiodła się
+    zh-TW: 登入失敗
+    zh-CN: 登录失败
   LoginInProgressInfoMessage:
     en: Complete the login in your web browser, or click "Cancel" to stop the process
     pl: Dokończ logowanie w przeglądarce internetowej lub kliknij „Przerwij”, aby zakończyć proces
+    zh-TW: 在網頁瀏覽器中完成登入，或點擊「取消」以停止程序
+    zh-CN: 在网页浏览器中完成登录，或点击「取消」以停止过程
   NotLoggedInInfoMessage:
     en: Click the "Login" button to open a web browser window and sign in
     pl: Kliknij „Zaloguj”, aby otworzyć przeglądarkę i rozpocząć proces logowania.
+    zh-TW: 點擊「登入」按鈕以開啟網頁瀏覽器視窗並登入
+    zh-CN: 点击「登录」按钮以打开网页浏览器窗口并登录
   UserNotLogged:
     en: Not logged in
     pl: Nie zalogowany
+    zh-TW: 未登入
+    zh-CN: 未登录
