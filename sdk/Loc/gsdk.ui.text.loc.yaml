@@ -1,161 +1,249 @@
 Hotkey.NotSet:
   en: Not set
   pl: Nie ustawiono
+  zh-TW: 未設定
+  zh-CN: 未设置
 
 GAppThemeOption:
   SystemDefault:
     en: System default
     pl: Zgodny z ustawieniami systemu
+    zh-TW: 系統預設
+    zh-CN: 系统默认
   Light:
     en: Light
     pl: Jasny
+    zh-TW: 淺色
+    zh-CN: 浅色
   Dark:
     en: Dark
     pl: Ciemny
+    zh-TW: 深色
+    zh-CN: 深色
 
 GCanRegisterHotkeyResult:
   InvalidHotkey:
     en: Invalid hotkey
     pl: Nieprawidłowy skrót klawiatury
+    zh-TW: 無效的快捷鍵
+    zh-CN: 无效的快捷键
   OK:
     en: OK
     pl: OK
+    zh-TW: 確定
+    zh-CN: 确定
   SystemError:
     en: The selected hotkey is unavailable (possibly used by another app or not allowed as a shortcut combination)
     pl: Wybrany skrót klawiszowy jest niedostępny (być może jest już używany przez inną aplikację lub nie może być użyty jako kombinacja skrótu)
+    zh-TW: 選取的快捷鍵不可用（可能已被其他應用程式使用或不被允許作為快捷鍵組合）
+    zh-CN: 选中的快捷键不可用（可能已被其他应用程序使用或不允许作为快捷键组合）
   AlreadyUsedByUs:
     en: Already used by our application
     pl: Ten skrót klawiatury jest już używany w naszej aplikacji
+    zh-TW: 已由我們的應用程式使用
+    zh-CN: 已由我们的应用程序使用
 
 GExpressionLogicalOperator:
   And:
     en: And
     pl: Oraz (and)
+    zh-TW: 且
+    zh-CN: 且
   Or:
     en: Or
     pl: Lub (or)
+    zh-TW: 或
+    zh-CN: 或
 
 GExpressionRuleOperator:
   Contains:
     en: Contains
     pl: Zawiera
+    zh-TW: 包含
+    zh-CN: 包含
   NotContains:
     en: Does not contain
     pl: Nie zawiera
+    zh-TW: 不包含
+    zh-CN: 不包含
   Equals:
     en: Equals
     pl: Równa się
+    zh-TW: 等於
+    zh-CN: 等于
   NotEquals:
     en: Not equals
     pl: Nie równa się
+    zh-TW: 不等於
+    zh-CN: 不等于
   StartsWith:
     en: Starts with
     pl: Zaczyna się od
+    zh-TW: 開頭為
+    zh-CN: 开头为
   EndsWith:
     en: Ends with
     pl: Kończy się na
+    zh-TW: 結尾為
+    zh-CN: 结尾为
   Regex:
     en: Matches regular expression
     pl: Pasuje do wyrażenia regex
+    zh-TW: 符合正則運算式
+    zh-CN: 匹配正则表达式
 
 GScreenSelectionMethod:
   ByFocusedWindow:
     en: Monitor with the active window
     pl: Monitor z aktywnym oknem
+    zh-TW: 含有作用中視窗的螢幕
+    zh-CN: 包含活动窗口的显示器
   ByMouse:
     en: Monitor under the mouse cursor
     pl: Monitor z kursorem myszy
+    zh-TW: 滑鼠游標所在的螢幕
+    zh-CN: 鼠标指针所在的显示器
   Primary:
     en: Primary monitor
     pl: Monitor główny
+    zh-TW: 主要螢幕
+    zh-CN: 主显示器
   ByName:
     en: Select by monitor
     pl: Wskaż monitor
+    zh-TW: 手動選擇螢幕
+    zh-CN: 手动选择显示器
 
 GUserInterfaceDensity:
   Compact:
     en: Compact
     pl: Zwarty
+    zh-TW: 緊湊
+    zh-CN: 紧凑
   Normal:
     en: Normal
     pl: Standardowy
+    zh-TW: 一般
+    zh-CN: 标准
   Spacious:
     en: Spacious
     pl: Przestronny
+    zh-TW: 寬鬆
+    zh-CN: 宽松
 
 GWindowScreenPosition:
   Top:
     en: Top
     pl: Na górze
+    zh-TW: 頂端
+    zh-CN: 顶部
   Bottom:
     en: Bottom
     pl: Na dole
+    zh-TW: 底部
+    zh-CN: 底部
   Center:
     en: Center
     pl: Na środku
+    zh-TW: 置中
+    zh-CN: 居中
 
 GWorkflowApplicationScope:
   All:
     en: in all applications
     pl: we wszystkich aplikacjach
+    zh-TW: 在所有應用程式中
+    zh-CN: 在所有应用程序中
   OnlySelected:
     en: in selected applications
     pl: w wybranych aplikacjach
+    zh-TW: 僅在選取的應用程式中
+    zh-CN: 仅在所选应用程序中
   ExcludeSelected:
     en: except in all applications except selected
     pl: we wszystkich aplikacjach, z wyjątkiem wybranych
+    zh-TW: 在所有應用程式中（排除選取的應用程式）
+    zh-CN: 在所有应用程序中（排除所选应用程序）
 
 GWorkflowTriggerType:
   GlobalHotkey:
     en: Global hokey
     pl: Globalny skrót klawiszowy
+    zh-TW: 全域快捷鍵
+    zh-CN: 全局快捷键
   CopyToClipboard:
     en: Item copied to clipboard
     pl: Element skopiowany do schowka
+    zh-TW: 項目複製到剪貼簿時
+    zh-CN: 项目复制到剪切板时
   CopyToClipboardFilter:
     en: Item matching filter copied to the clipboard
     pl: Element pasujący do filtra skopiowany do schowka
+    zh-TW: 符合篩選條件的項目複製到剪貼簿時
+    zh-CN: 符合筛选条件的项目复制到剪切板时
   Manual:
     en: Run manually from menu
     pl: Uruchomienie z menu
+    zh-TW: 從選單手動執行
+    zh-CN: 从菜单手动运行
 
 Text:
   GenerateConnectionName:
     en: "Connection to {m.Name}"
     pl: "Połączenie z {m.Name}"
+    zh-TW: "與 {m.Name} 的連線"
+    zh-CN: "与 {m.Name} 的连接"
 
   GenerateConnectionNameForUser:
     en: "Connection to {m.Name} ({m.UserId})"
     pl: "Połączenie z {m.Name} ({m.UserId})"
+    zh-TW: "與 {m.Name}（{m.UserId}）的連線"
+    zh-CN: "与 {m.Name}（{m.UserId}）的连接"
 
   Info:
     en: Information
     pl: Informacja
+    zh-TW: 資訊
+    zh-CN: 信息
 
   InformationTitle:
     en: Information
     pl: Informacja
+    zh-TW: 資訊
+    zh-CN: 信息
 
   HasUnsavedChanges:
     en: You have unsaved changes
     pl: Masz niezapisane zmiany
+    zh-TW: 您有尚未儲存的變更
+    zh-CN: 您有未保存的更改
     CreateObject:
       en: You have unsaved changes (new item)
       pl: Masz niezapisane zmiany (nowy element)
+      zh-TW: 您有尚未儲存的變更（新項目）
+      zh-CN: 您有未保存的更改（新项目）
 
 WaitWindow:
   Canceling:
     en: Canceling...
     pl: Anulowanie...
+    zh-TW: 正在取消...
+    zh-CN: 正在取消...
   PleaseWait:
     en: Please wait...
     pl: Proszę czekać...
+    zh-TW: 請稍候...
+    zh-CN: 请稍候...
 
 Validator:
   RequiredAttribute:
     en: The {0} filed is required.
     pl: Pole {0} jest wymagane.
+    zh-TW: {0} 欄位為必填。
+    zh-CN: {0} 字段为必填。
 
   RestartAfterCrash:
     en: Application encountered an error and was restarted automatically.
     pl: Aplikacja wykryła błąd krytyczny i została automatycznia zrestartowana.
+    zh-TW: 應用程式發生錯誤並已自動重新啟動。
+    zh-CN: 应用程序遇到错误并已自动重新启动。

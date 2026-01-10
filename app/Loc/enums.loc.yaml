@@ -2,180 +2,286 @@ ClipItemDataType:
   Text:
     en: Text
     pl: Tekst
+    zh-TW: 文字
+    zh-CN: 文本
   Image:
     en: Image
     pl: Obraz
+    zh-TW: 圖片
+    zh-CN: 图片
   Files:
     en: Files
     pl: Pliki
+    zh-TW: 檔案
+    zh-CN: 文件
   Audio:
     en: Audio
     pl: Audio
+    zh-TW: 音訊
+    zh-CN: 音频
 
 ClipItemFilterExpression:
   DataType:
     en: Data type
     pl: Typ danych
+    zh-TW: 資料類型
+    zh-CN: 数据类型
   Text:
     en: Text
     pl: Tekst
+    zh-TW: 文字
+    zh-CN: 文本
   Url:
     Host:
       en: Url Host
       pl: Host adresu URL
+      zh-TW: URL 主機
+      zh-CN: URL 主机
     Path:
       en: Url Path
       pl: Ścieżka adresu URL
+      zh-TW: URL 路徑
+      zh-CN: URL 路径
     Query:
       en: URL Query
       pl: Parametry URL
+      zh-TW: URL 查詢參數
+      zh-CN: URL 查询参数
     FullUrl:
       en: Full URL
       pl: Pełny adres URL
+      zh-TW: 完整 URL
+      zh-CN: 完整 URL
 
 
 ClipItemPayloadType:
   None:
     en: None
     pl: Brak
+    zh-TW: 無
+    zh-CN: 无
   PlainText:
     en: Plain text
     pl: Zwykły tekst
+    zh-TW: 純文字
+    zh-CN: 纯文本
   Json:
     en: JSON
     pl: JSON
+    zh-TW: JSON
+    zh-CN: JSON
 
 ClipItemTextSubtype:
   Text:
     en: Text
     pl: Tekst
+    zh-TW: 文字
+    zh-CN: 文本
   EmptyString:
     en: Empty string
     pl: Pusty tekst
+    zh-TW: 空字串
+    zh-CN: 空字符串
   Email:
     en: Email
     pl: Email
+    zh-TW: 電子郵件
+    zh-CN: 电子邮件
   URL:
     en: Web address
     pl: Adres strony
+    zh-TW: 網址
+    zh-CN: 网址
   Color:
     en: Color
     pl: Kolor
+    zh-TW: 顏色
+    zh-CN: 颜色
   Rtf:
     en: RTF
     pl: RTF
+    zh-TW: RTF
+    zh-CN: RTF
   Html:
     en: HTML
     pl: HTML
+    zh-TW: HTML
+    zh-CN: HTML
   Csv:
     en: CSV
     pl: CSV
+    zh-TW: CSV
+    zh-CN: CSV
 
 DeleteHistoryRange:
   LastHour:
     en: Last hour
     pl: Ostatnia godzina
+    zh-TW: 最後一小時
+    zh-CN: 最后一小时
   Last24Hours:
     en: Last 24 hours
     pl: Ostatnie 24 godzin
+    zh-TW: 最後 24 小時
+    zh-CN: 最后 24 小时
   Last7Days:
     en: Last 7 days
     pl: Ostatnie 7 dni
+    zh-TW: 最後 7 天
+    zh-CN: 最后 7 天
   Last30Days:
     en: Last 30 days
     pl: Ostatnie 30 dni
+    zh-TW: 最後 30 天
+    zh-CN: 最后 30 天
   Last365Days:
     en: Last 365 days
     pl: Ostatnie 365 dni
+    zh-TW: 最後 365 天
+    zh-CN: 最后 365 天
   Everything:
     en: Everything
     pl: Wszystko
+    zh-TW: 全部
+    zh-CN: 全部
 
 GWindowFilterExpression:
   ClassName:
     en: Window class name
     pl: Nazwa klasy okna
+    zh-TW: 視窗類別名稱
+    zh-CN: 窗口类名
   ProcessFileName:
     en: Process file name
     pl: Nazwa pliku procesu
+    zh-TW: 程序檔案名稱
+    zh-CN: 进程文件名
   ProcessFilePath:
     en: Process file path (full)
     pl: Pełna ścieżka pliku procesu
+    zh-TW: 程序檔案路徑（完整）
+    zh-CN: 进程文件路径（完整）
   Title:
     en: Window title
     pl: Tytuł okna
+    zh-TW: 視窗標題
+    zh-CN: 窗口标题
 
 HistoryRetentionUnit:
   Hours:
     en: Hours
     pl: Godziny
+    zh-TW: 小時
+    zh-CN: 小时
   Days:
     en: Days
     pl: Dni
+    zh-TW: 天
+    zh-CN: 天
   Weeks:
     en: Weeks
     pl: Tygodnie
+    zh-TW: 週
+    zh-CN: 周
   Months:
     en: Months
     pl: Miesiące
+    zh-TW: 月
+    zh-CN: 月
   Years:
     en: Years
     pl: Lata
+    zh-TW: 年
+    zh-CN: 年
   Forever:
     en: Forever
     pl: Bez ograniczenia
+    zh-TW: 永久
+    zh-CN: 永久
 
 HttpAuthScheme:
   None:
     en: None
     pl: Brak
+    zh-TW: 無
+    zh-CN: 无
   Basic:
     en: Basic
     pl: Basic
+    zh-TW: 基本驗證
+    zh-CN: 基本认证
   BearerToken:
     en: Bearer token
     pl: Bearer token
+    zh-TW: Bearer 權杖
+    zh-CN: Bearer 令牌
 
 ShareItemRetentionOption:
   OneDay:
     en: After one day
     pl: Po jednym dniu
+    zh-TW: 一天後
+    zh-CN: 一天后
   ThreeDays:
     en: After three days
     pl: Po trzech dniach
+    zh-TW: 三天後
+    zh-CN: 三天后
   OneWeek:
     en: After one week
     pl: Po jednym tygodniu
+    zh-TW: 一週後
+    zh-CN: 一周后
   TenDays:
     en: After ten days
     pl: Po dziesięciu dniach
+    zh-TW: 十天後
+    zh-CN: 十天后
   TwoWeeks:
     en: After two weeks
     pl: Po dwóch tygodniach
+    zh-TW: 兩週後
+    zh-CN: 两周后
   OneMonth:
     en: After one month
     pl: Po jednym miesiącu
+    zh-TW: 一個月後
+    zh-CN: 一个月后
   TwoMonths:
     en: After two months
     pl: Po dwóch miesiącach
+    zh-TW: 兩個月後
+    zh-CN: 两个月后
   FourMonths:
     en: After four months
     pl: Po czterech miesiącach
+    zh-TW: 四個月後
+    zh-CN: 四个月后
   SixMonths:
     en: After six months
     pl: Po sześciu miesiącach
+    zh-TW: 六個月後
+    zh-CN: 六个月后
   OneYear:
     en: After one year
     pl: Po jednym roku
+    zh-TW: 一年後
+    zh-CN: 一年后
 
 SendKeystrokesItemType:
   Text:
     en: Text
     pl: Tekst
+    zh-TW: 文字
+    zh-CN: 文本
   Keycode:
     en: Key code
     pl: Klawisz
+    zh-TW: 按鍵碼
+    zh-CN: 按键码
   Delay:
     en: Delay
     pl: Opóźnienie
+    zh-TW: 延遲
+    zh-CN: 延迟
 

@@ -2,12 +2,18 @@ Exception:
   UserNotLoggedException:
     en: You need to sign in to your account in the application settings.
     pl: Musisz zalogować się do swojego konta w ustawieniach aplikacji.
+    zh-TW: 您需要在應用程式設定中登入您的帳戶。
+    zh-CN: 您需要在应用程序设置中登录您的账户。
 
   ActivateWindowActivity:
     WindowNotFound:
       en: "Window not found (filter: {v.Expression})"
       pl: "Okno nie zostało znalezione (filtr: {v.Expression})"
+      zh-TW: "找不到視窗（篩選器：{v.Expression}）"
+      zh-CN: "找不到窗口（过滤器：{v.Expression}）"
 
   ZapierTriggersNotDefinedException:
     en: "No triggers have been defined in your Zapier account."
     pl: "Na Twoim koncie w Zapier nie zdefiniowano żadnych triggerów."
+    zh-TW: "您的 Zapier 帳戶中尚未定義任何觸發器。"
+    zh-CN: "您的 Zapier 账户中尚未定义任何触发器。"

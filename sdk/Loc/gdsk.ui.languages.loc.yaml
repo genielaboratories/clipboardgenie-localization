@@ -2,222 +2,370 @@ LanguageName:
   lang_af:
     en: Afrikaans
     pl: Afrikaans
+    zh-TW: 南非荷蘭語
+    zh-CN: 南非荷兰语
   lang_ar:
     en: Arabic
     pl: Arabski
+    zh-TW: 阿拉伯語
+    zh-CN: 阿拉伯语
   lang_az:
     en: Azerbaijani
     pl: Azerbejdżański
+    zh-TW: 亞塞拜然語
+    zh-CN: 阿塞拜疆语
   lang_be:
     en: Belarusian
     pl: Białoruski
+    zh-TW: 白俄羅斯語
+    zh-CN: 白俄罗斯语
   lang_bg:
     en: Bulgarian
     pl: Bułgarski
+    zh-TW: 保加利亞語
+    zh-CN: 保加利亚语
   lang_bs:
     en: Bosnian
     pl: Bośniacki
+    zh-TW: 波士尼亞語
+    zh-CN: 波斯尼亚语
   lang_ca:
     en: Catalan
     pl: Kataloński
+    zh-TW: 加泰隆尼亞語
+    zh-CN: 加泰罗尼亚语
   lang_cs:
     en: Czech
     pl: Czeski
+    zh-TW: 捷克語
+    zh-CN: 捷克语
   lang_cy:
     en: Welsh
     pl: Walijski
+    zh-TW: 威爾斯語
+    zh-CN: 威尔士语
   lang_da:
     en: Danish
     pl: Duński
+    zh-TW: 丹麥語
+    zh-CN: 丹麦语
   lang_de:
     en: German
     pl: Niemiecki
+    zh-TW: 德語
+    zh-CN: 德语
   lang_de-CH:
     en: German (Switzerland)
     pl: Niemiecki (Szwajcaria)
+    zh-TW: 德語（瑞士）
+    zh-CN: 德语（瑞士）
   lang_el:
     en: Greek
     pl: Grecki
+    zh-TW: 希臘語
+    zh-CN: 希腊语
   lang_en:
     en: English
     pl: Angielski
+    zh-TW: 英語
+    zh-CN: 英语
   lang_en-AU:
     en: English (Australia)
     pl: Angielski (Australia)
+    zh-TW: 英語（澳洲）
+    zh-CN: 英语（澳大利亚）
   lang_en-GB:
     en: English (UK)
     pl: Angielski (Wielka Brytania)
+    zh-TW: 英語（英國）
+    zh-CN: 英语（英国）
   lang_en-IN:
     en: English (India)
     pl: Angielski (Indie)
+    zh-TW: 英語（印度）
+    zh-CN: 英语（印度）
   lang_en-NZ:
     en: English (New Zealand)
     pl: Angielski (Nowa Zelandia)
+    zh-TW: 英語（紐西蘭）
+    zh-CN: 英语（新西兰）
   lang_en-US:
     en: English (US)
     pl: Angielski (USA)
+    zh-TW: 英語（美國）
+    zh-CN: 英语（美国）
   lang_es:
     en: Spanish
     pl: Hiszpański
+    zh-TW: 西班牙語
+    zh-CN: 西班牙语
   lang_es-419:
     en: Spanish (Latin America)
     pl: Hiszpański (Ameryka Łacińska)
+    zh-TW: 西班牙語（拉丁美洲）
+    zh-CN: 西班牙语（拉丁美洲）
   lang_et:
     en: Estonian
     pl: Estoński
+    zh-TW: 愛沙尼亞語
+    zh-CN: 爱沙尼亚语
   lang_fa:
     en: Persian
     pl: Perski
+    zh-TW: 波斯語
+    zh-CN: 波斯语
   lang_fi:
     en: Finnish
     pl: Fiński
+    zh-TW: 芬蘭語
+    zh-CN: 芬兰语
   lang_fr:
     en: French
     pl: Francuski
+    zh-TW: 法語
+    zh-CN: 法语
   lang_fr-CA:
     en: French (Canada)
     pl: Francuski (Kanada)
+    zh-TW: 法語（加拿大）
+    zh-CN: 法语（加拿大）
   lang_gl:
     en: Galician
     pl: Galicyjski
+    zh-TW: 加利西亞語
+    zh-CN: 加利西亚语
   lang_he:
     en: Hebrew
     pl: Hebrajski
+    zh-TW: 希伯來語
+    zh-CN: 希伯来语
   lang_hi:
     en: Hindi
     pl: Hindi
+    zh-TW: 印地語
+    zh-CN: 印地语
   lang_hr:
     en: Croatian
     pl: Chorwacki
+    zh-TW: 克羅埃西亞語
+    zh-CN: 克罗地亚语
   lang_hu:
     en: Hungarian
     pl: Węgierski
+    zh-TW: 匈牙利語
+    zh-CN: 匈牙利语
   lang_hy:
     en: Armenian
     pl: Ormiański
+    zh-TW: 亞美尼亞語
+    zh-CN: 亚美尼亚语
   lang_id:
     en: Indonesian
     pl: Indonezyjski
+    zh-TW: 印尼語
+    zh-CN: 印尼语
   lang_is:
     en: Icelandic
     pl: Islandzki
+    zh-TW: 冰島語
+    zh-CN: 冰岛语
   lang_it:
     en: Italian
     pl: Włoski
+    zh-TW: 義大利語
+    zh-CN: 意大利语
   lang_ja:
     en: Japanese
     pl: Japoński
+    zh-TW: 日語
+    zh-CN: 日语
   lang_kk:
     en: Kazakh
     pl: Kazachski
+    zh-TW: 哈薩克語
+    zh-CN: 哈萨克语
   lang_kn:
     en: Kannada
     pl: Kannada
+    zh-TW: 坎納達語
+    zh-CN: 卡纳达语
   lang_ko:
     en: Korean
     pl: Koreański
+    zh-TW: 韓語
+    zh-CN: 韩语
   lang_lt:
     en: Lithuanian
     pl: Litewski
+    zh-TW: 立陶宛語
+    zh-CN: 立陶宛语
   lang_lv:
     en: Latvian
     pl: Łotewski
+    zh-TW: 拉脫維亞語
+    zh-CN: 拉脱维亚语
   lang_mi:
     en: Maori
     pl: Maoryski
+    zh-TW: 毛利語
+    zh-CN: 毛利语
   lang_mk:
     en: Macedonian
     pl: Macedoński
+    zh-TW: 馬其頓語
+    zh-CN: 马其顿语
   lang_mr:
     en: Marathi
     pl: Marathi
+    zh-TW: 馬拉地語
+    zh-CN: 马拉地语
   lang_ms:
     en: Malay
     pl: Malajski
+    zh-TW: 馬來語
+    zh-CN: 马来语
   lang_multi:
     en: Multilingual
     pl: Wielojęzyczny
+    zh-TW: 多語言
+    zh-CN: 多语言
   lang_ne:
     en: Nepali
     pl: Nepalski
+    zh-TW: 尼泊爾語
+    zh-CN: 尼泊尔语
   lang_nl:
     en: Dutch
     pl: Niderlandzki
+    zh-TW: 荷蘭語
+    zh-CN: 荷兰语
   lang_nl-BE:
     en: Dutch (Belgium)
     pl: Niderlandzki (Belgia)
+    zh-TW: 荷蘭語（比利時）
+    zh-CN: 荷兰语（比利时）
   lang_no:
     en: Norwegian
     pl: Norweski
+    zh-TW: 挪威語
+    zh-CN: 挪威语
   lang_pl:
     en: Polish
     pl: Polski
+    zh-TW: 波蘭語
+    zh-CN: 波兰语
   lang_pt:
     en: Portuguese
     pl: Portugalski
+    zh-TW: 葡萄牙語
+    zh-CN: 葡萄牙语
   lang_pt-BR:
     en: Portuguese (Brazil)
     pl: Portugalski (Brazylia)
+    zh-TW: 葡萄牙語（巴西）
+    zh-CN: 葡萄牙语（巴西）
   lang_pt-PT:
     en: Portuguese (Portugal)
     pl: Portugalski (Portugalia)
+    zh-TW: 葡萄牙語（葡萄牙）
+    zh-CN: 葡萄牙语（葡萄牙）
   lang_ro:
     en: Romanian
     pl: Rumuński
+    zh-TW: 羅馬尼亞語
+    zh-CN: 罗马尼亚语
   lang_ru:
     en: Russian
     pl: Rosyjski
+    zh-TW: 俄語
+    zh-CN: 俄语
   lang_sk:
     en: Slovak
     pl: Słowacki
+    zh-TW: 斯洛伐克語
+    zh-CN: 斯洛伐克语
   lang_sl:
     en: Slovenian
     pl: Słoweński
+    zh-TW: 斯洛維尼亞語
+    zh-CN: 斯洛文尼亚语
   lang_sr:
     en: Serbian
     pl: Serbski
+    zh-TW: 塞爾維亞語
+    zh-CN: 塞尔维亚语
   lang_sv:
     en: Swedish
     pl: Szwedzki
+    zh-TW: 瑞典語
+    zh-CN: 瑞典语
   lang_sw:
     en: Swahili
     pl: Suahili
+    zh-TW: 斯瓦希里語
+    zh-CN: 斯瓦希里语
   lang_ta:
     en: Tamil
     pl: Tamilski
+    zh-TW: 坦米爾語
+    zh-CN: 泰米尔语
   lang_th:
     en: Thai
     pl: Tajska
+    zh-TW: 泰語
+    zh-CN: 泰语
   lang_tl:
     en: Tagalog
     pl: Tagalski
+    zh-TW: 他加祿語
+    zh-CN: 他加禄语
   lang_tr:
     en: Turkish
     pl: Turecki
+    zh-TW: 土耳其語
+    zh-CN: 土耳其语
   lang_uk:
     en: Ukrainian
     pl: Ukraiński
+    zh-TW: 烏克蘭語
+    zh-CN: 乌克兰语
   lang_ur:
     en: Urdu
     pl: Urdu
+    zh-TW: 烏爾都語
+    zh-CN: 乌尔都语
   lang_vi:
     en: Vietnamese
     pl: Wietnamski
+    zh-TW: 越南語
+    zh-CN: 越南语
   lang_zh:
     en: Chinese
     pl: Chiński
+    zh-TW: 中文
+    zh-CN: 中文
   lang_zh-CN:
     en: Chinese (Simplified, China)
     pl: Chiński (uproszczony, Chiny)
+    zh-TW: 中文（簡體，中國）
+    zh-CN: 中文（简体，中国）
   lang_zh-HK:
     en: Chinese (Hong Kong)
     pl: Chiński (Hongkong)
+    zh-TW: 中文（香港）
+    zh-CN: 中文（香港）
   lang_zh-Hans:
     en: Chinese (Simplified)
     pl: Chiński (uproszczony)
+    zh-TW: 中文（簡體）
+    zh-CN: 中文（简体）
   lang_zh-Hant:
     en: Chinese (Traditional)
     pl: Chiński (tradycyjny)
+    zh-TW: 中文（繁體）
+    zh-CN: 中文（繁体）
   lang_zh-TW:
     en: Chinese (Traditional, Taiwan)
     pl: Chiński (tradycyjny, Tajwan)
+    zh-TW: 中文（繁體，台灣）
+    zh-CN: 中文（繁体，台湾）

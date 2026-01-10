@@ -2,219 +2,339 @@ ActivateWindowActivity:
   Name:
     en: Activate Window
     pl: Aktywuj okno
+    zh-TW: 啟動視窗
+    zh-CN: 激活窗口
   WindowFilterWatermark:
     en: Use button to set window filter
     pl: Użyj przycisku dla ustawienia filtru
+    zh-TW: 使用按鈕設定視窗篩選器
+    zh-CN: 使用按钮设置窗口过滤器
 
 AiChatPromptActivity:
   Name:
     en: AI chat prompt
     pl: Prompt czatu AI
+    zh-TW: AI 聊天提示
+    zh-CN: AI 聊天提示
 
 AiPromptTemplateActivity:
   Name:
     en: AI chat prompt with template
     pl: AI chat prompt z szablonem
+    zh-TW: 使用範本的 AI 聊天提示
+    zh-CN: 使用模板的 AI 聊天提示
 
 CopyResultToClipboardActivity:
   Name:
     en: Copy result to clipboard
     pl: Skopiuj wynik do schowka
+    zh-TW: 複製結果到剪貼簿
+    zh-CN: 复制结果到剪切板
 
 CopySelectionActivity:
   Name:
     en: Copy selection to clipboard (Ctrl+C)
     pl: Skopiuj zaznaczenie do schowka (Ctrl+C)
+    zh-TW: 複製選取內容到剪貼簿 (Ctrl+C)
+    zh-CN: 复制选中内容到剪切板 (Ctrl+C)
   FailedToCopyToClipboard:
     en: Failed to copy selection to clipboard
     pl: Nie udało się skopiować zaznaczenia do schowka
+    zh-TW: 無法複製選取內容到剪貼簿
+    zh-CN: 无法复制选中内容到剪切板
 
 DeleteItemShareJob:
   Name:
     en: Delete sharing
     pl: Usuwanie danych
+    zh-TW: 刪除分享
+    zh-CN: 删除分享
 
 RunExtensionActivity:
   Name:
     en: Run extension
     pl: Uruchom rozszerzenie
+    zh-TW: 執行擴充功能
+    zh-CN: 运行扩展
 
 GoogleTranslateCategory:
   Name:
     en: Google Translate
     pl: Tłumacz Google
+    zh-TW: Google 翻譯
+    zh-CN: Google 翻译
 
 GoogleTranslateActivity:
   Name:
     en: Google Translate
     pl: Tłumacz Google
+    zh-TW: Google 翻譯
+    zh-CN: Google 翻译
   LanguageFromLabel:
     en: Source Language
     pl: Język źródłowy
+    zh-TW: 來源語言
+    zh-CN: 源语言
   LanguageToLabel:
     en: Target Language
     pl: Język docelowy
+    zh-TW: 目標語言
+    zh-CN: 目标语言
   Validator:
     LanguageFrom:
       en: Please select a source language.
       pl: Wybierz język źródłowy
+      zh-TW: 請選擇來源語言。
+      zh-CN: 请选择源语言。
     LanguageTo:
       en: Please select a target language.
       pl: Wybierz język docelowy
+      zh-TW: 請選擇目標語言。
+      zh-CN: 请选择目标语言。
     LanguagesEqual:
       en: Source and target languages are the same.Microsoft product name or description
       pl: Język źródłowy i docelowy są takie same
+      zh-TW: 來源語言與目標語言相同
+      zh-CN: 源语言和目标语言相同
 
 n8nIncomingActionActivity:
   Name:
     en: Incoming actions from n8n
     pl: Akcje przychodzące z n8n
+    zh-TW: 來自 n8n 的傳入動作
+    zh-CN: 来自 n8n 的传入操作
   InfoMessage:
     en: Enable incoming actions from n8n to receive data sent by n8n actions and place it on the clipboard.
     pl: Włącz akcje przychodzące z n8n, aby odbierać dane wysyłane przez akcje n8n i umieszczać je w schowku.
+    zh-TW: 啟用來自 n8n 的傳入動作，以接收由 n8n 動作發送的資料並將其放置在剪貼簿上。
+    zh-CN: 启用来自 n8n 的传入操作，以接收由 n8n 操作发送的数据并将其放置在剪切板上。
   NotificationActionTitle:
     en: n8n notification
     pl: Notyfikacja z n8n
+    zh-TW: n8n 通知
+    zh-CN: n8n 通知
 
 PasteToActiveAppActivity:
   Name:
     en: Paste result to active app
     pl: Wklej wynik do aktywnego programu
+    zh-TW: 貼上結果到使用中應用程式
+    zh-CN: 粘贴结果到活动应用
 
 PlaySoundActivity:
   Name:
     en: Play Sound
     pl: Odtwórz dźwięk
+    zh-TW: 播放聲音
+    zh-CN: 播放声音
   AudioDeviceNameLabel:
     en: Audio Device
     pl: Urządzenie audio
+    zh-TW: 音訊裝置
+    zh-CN: 音频设备
   DefaultDeviceName:
     en: Default
     pl: Domyślne urządzenie
+    zh-TW: 預設裝置
+    zh-CN: 默认设备
   SoundFilePathLabel:
     en: Sound file
     pl: Plik dźwięku
+    zh-TW: 聲音檔案
+    zh-CN: 声音文件
   VolumeLabel:
     en: Volume
     pl: Głośność
+    zh-TW: 音量
+    zh-CN: 音量
 
 SendKeystrokesActivity:
   Name:
     en: Send Keystrokes
     pl: Wyślij sekwencje klawiszy
+    zh-TW: 傳送按鍵
+    zh-CN: 发送按键
   KeystrokesInfoLabel:
     en: Use the button to edit keystrokes
     pl: Użyj przycisku, by edytować sekwencję
+    zh-TW: 使用按鈕編輯按鍵
+    zh-CN: 使用按钮编辑按键
 
 ShareClipItemJob:
   Name:
     en: Sharing
     pl: Udostępnianie
+    zh-TW: 分享
+    zh-CN: 分享
 
 SlackCreateMessageActivity:
   Name:
     en: "Slack: send message"
     pl: "Slack: wysłanie wiadomości"
+    zh-TW: "Slack：傳送訊息"
+    zh-CN: "Slack：发送消息"
   BootNameLabel:
     en: Bot Name (optional)
     pl: Nazwa bota (opcjonalnie)
+    zh-TW: 機器人名稱（選用）
+    zh-CN: 机器人名称（可选）
   ConnectionLabel:
     en: Slack connection
     pl: Połączenie Slack
+    zh-TW: Slack 連線
+    zh-CN: Slack 连接
   ChannelsLabel:
     en: Select channel
     pl: Wybierz kanał
+    zh-TW: 選擇頻道
+    zh-CN: 选择频道
   GetChannersErrorTitle:
     en: Error retrieving channels
     pl: Błąd pobierania kanałów
+    zh-TW: 擷取頻道時發生錯誤
+    zh-CN: 检索频道时出错
   NotConnectedMessage:
     en: "You are not connected to Slack. Please connect to Slack in the connection settings."
     pl: "Nie jesteś połączony z Slack. Połącz się ze Slack w ustawieniach połączenia."
+    zh-TW: "您尚未連線到 Slack。請在連線設定中連線到 Slack。"
+    zh-CN: "您尚未连接到 Slack。请在连接设置中连接到 Slack。"
   TestButton:
     en: Send test message
     pl: Wyślij wiadomość testową
+    zh-TW: 傳送測試訊息
+    zh-CN: 发送测试消息
   TestMessage:
     en: "Test message from Clipboard Genie <https://genielaboratories.com>. If you see this message, the connection is working."
     pl: "Wiadomość testowa z Clipboard Genie <https://genielaboratories.com>. Jeśli widzisz tę wiadomość, połączenie działa."
+    zh-TW: "來自 Clipboard Genie <https://genielaboratories.com> 的測試訊息。如果您看到此訊息，表示連線正常運作。"
+    zh-CN: "来自 Clipboard Genie <https://genielaboratories.com> 的测试消息。如果您看到此消息，表示连接正常工作。"
 
 WebhookActivity:
   Name:
     en: Webhook
     pl: Webhook
+    zh-TW: Webhook
+    zh-CN: Webhook
   AuthSchemeLabel:
     en: Authentication Scheme
     pl: Schemat uwierzytelniania
+    zh-TW: 驗證方案
+    zh-CN: 认证方案
   AuthTokenLabel:
     en: Authentication Token
     pl: Token uwierzytelniania
+    zh-TW: 驗證權杖
+    zh-CN: 认证令牌
   ExpectedResponseCodeLabel:
     en: Success response code
     pl: Oczekiwany kod odpowiedzi
+    zh-TW: 成功回應碼
+    zh-CN: 成功响应代码
   HttpMethodLabel:
     en: HTTP Method
     pl: Metoda HTTP
+    zh-TW: HTTP 方法
+    zh-CN: HTTP 方法
   PayloadTypeLabel:
     en: Send clipboard content
     pl: Wyślij zawartość schowka
+    zh-TW: 傳送剪貼簿內容
+    zh-CN: 发送剪切板内容
   ResponseProcessingLabel:
     en: Response Processing
     pl: Przetwarzanie odpowiedzi
+    zh-TW: 回應處理
+    zh-CN: 响应处理
   TestButton:
     en: Send test data
     pl: Wyślij dane testowe
+    zh-TW: 傳送測試資料
+    zh-CN: 发送测试数据
   TestFailed:
     en: Test failed
     pl: Test nie powiódł się
+    zh-TW: 測試失敗
+    zh-CN: 测试失败
   TestSuccess:
     en: "Test was successfully completed. Http Response code: {v}"
     pl: "Test został pomyślnie zakończony. Kod odpowiedzi HTTP: {v}"
+    zh-TW: "測試已成功完成。HTTP 回應碼：{v}"
+    zh-CN: "测试已成功完成。HTTP 响应代码：{v}"
   UserNameLabel:
     en: Username
     pl: Nazwa użytkownika
+    zh-TW: 使用者名稱
+    zh-CN: 用户名
   UserPasswordLabel:
     en: Password
     pl: Hasło
+    zh-TW: 密碼
+    zh-CN: 密码
   UrlLabel:
     en: Webhook URL
     pl: Adres URL webhooka
+    zh-TW: Webhook URL
+    zh-CN: Webhook URL
 
 UpdateShareJob:
   Name:
     en: Update sharing
     pl: Aktualizacja danych
+    zh-TW: 更新分享
+    zh-CN: 更新分享
 
 SendToZapierActivity:
   Name:
     en: Send to Zapier
     pl: Wyślij do Zapier
+    zh-TW: 傳送到 Zapier
+    zh-CN: 发送到 Zapier
   TestButton:
     en: Send test data
     pl: Wyślij dane testowe
+    zh-TW: 傳送測試資料
+    zh-CN: 发送测试数据
   TestInfoLabel:
     en: "Use 'Send test data' button to send current clipboard content as test item."
     pl: "Użyj przycisku powyżej aby wysłać aktualną zawartość schowka jako element testowy do Zapier."
+    zh-TW: "使用「傳送測試資料」按鈕將目前的剪貼簿內容作為測試項目傳送。"
+    zh-CN: "使用「发送测试数据」按钮将当前的剪切板内容作为测试项目发送。"
   TestSuccessMessage:
     en: Test data has been sent to Zapier
     pl: Dane testowe zostały wysłane do Zapier
+    zh-TW: 測試資料已傳送到 Zapier
+    zh-CN: 测试数据已发送到 Zapier
 
 WebhookActivityResponseProcessing:
   None:
     en: Not processed
     pl: Nie przetwarzaj
+    zh-TW: 不處理
+    zh-CN: 不处理
   CopyToClipboardAsText:
     en: Copy to clipboard as text
     pl: Skopiuj do schowka jako tekst
+    zh-TW: 以文字形式複製到剪貼簿
+    zh-CN: 以文本形式复制到剪切板
 
 ZapierIncomingActionActivity:
   Name:
     en: Incoming actions from Zapier
     pl: Akcje przychodzące z Zapier
+    zh-TW: 來自 Zapier 的傳入動作
+    zh-CN: 来自 Zapier 的传入操作
   InfoMessage:
     en: Enable incoming actions from Zapier to receive data sent by Zapier actions and place it on the clipboard.
     pl: Włącz akcje przychodzące z Zapier, aby odbierać dane wysyłane przez akcje Zapier i umieszczać je w schowku.
+    zh-TW: 啟用來自 Zapier 的傳入動作，以接收由 Zapier 動作發送的資料並將其放置在剪貼簿上。
+    zh-CN: 启用来自 Zapier 的传入操作，以接收由 Zapier 操作发送的数据并将其放置在剪切板上。
   TextActionNotificationTitle:
     en: Data received from Zapier
     pl: Otrzymano dane z Zapier
+    zh-TW: 從 Zapier 接收的資料
+    zh-CN: 从 Zapier 接收的数据
   NotificationActionTitle:
     en: Zapier notification
     pl: Notyfikacja z Zapier
+    zh-TW: Zapier 通知
+    zh-CN: Zapier 通知

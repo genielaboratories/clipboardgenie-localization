@@ -2,33 +2,53 @@
   UIButtonCancelText:
     en: Cancel
     pl: Anuluj
+    zh-TW: 取消
+    zh-CN: 取消
   UIButtonYesText:
     en: _Yes
     pl: _Tak
+    zh-TW: _是
+    zh-CN: _是
   UIButtonNoText:
     en: _No
     pl: _Nie
+    zh-TW: _否
+    zh-CN: _否
   UIButtonOKText:
     en: OK
     pl: OK
+    zh-TW: 確定
+    zh-CN: 确定
   UIDialogTitleErrorText:
     en: Error
     pl: Błąd
+    zh-TW: 錯誤
+    zh-CN: 错误
   UIDialogTitleInformationText:
     en: Information
     pl: Informacja
+    zh-TW: 資訊
+    zh-CN: 信息
   UIDialogTitleQuestionText:
     en: Question
     pl: Pytanie
+    zh-TW: 問題
+    zh-CN: 问题
   UIDialogTitleWarningText:
     en: Warning
     pl: Ostrzeżenie
+    zh-TW: 警告
+    zh-CN: 警告
 
 Text:
   ToggleSwitch.On:
     en: On
     pl: Włączony
+    zh-TW: 開啟
+    zh-CN: 开启
   ToggleSwitch.Off:
     en: Off
     pl: Wyłączony
+    zh-TW: 關閉
+    zh-CN: 关闭
 
