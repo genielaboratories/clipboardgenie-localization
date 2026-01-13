@@ -239,8 +239,8 @@ Validator:
   RequiredAttribute:
     en: The {0} filed is required.
     pl: Pole {0} jest wymagane.
-    zh-TW: {0} 欄位為必填。
-    zh-CN: {0} 字段为必填。
+    zh-TW: "{0} 欄位為必填。"
+    zh-CN: "{0} 字段为必填。"
 
   RestartAfterCrash:
     en: Application encountered an error and was restarted automatically.
