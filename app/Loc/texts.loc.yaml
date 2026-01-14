@@ -2,133 +2,201 @@
   ActivityTestSuccess:
     en: Activity test successful
     pl: Test zakończony sukcesem
+    zh-TW: 活動測試成功
+    zh-CN: 活动测试成功
 
   ActivityTestFailed:
     en: Activity test failed
     pl: Test zakończony niepowodzeniem
+    zh-TW: 活動測試失敗
+    zh-CN: 活动测试失败
 
   Auth:
     LoginRequiredTitle:
       en: Login required
       pl: Logowanie wymagane
+      zh-TW: 需要登入
+      zh-CN: 需要登录
     LoginRequiredMessage:
       en: You must be logged in to use this feature.
       pl: Aby skorzystać z tej funkcji, musisz być zalogowany.
+      zh-TW: 您必須登入才能使用此功能。
+      zh-CN: 您必须登录才能使用此功能。
 
   Clipboard:
     NoContentMessage:
       en: No clipboard data found. Please copy something before using this feature.
       pl: Brak danych w schowku. Skopiuj coś, aby móc skorzystać z tej funkcji.
+      zh-TW: 找不到剪貼簿資料。請在使用此功能前先複製某些內容。
+      zh-CN: 找不到剪切板数据。请在使用此功能前先复制某些内容。
     NoContentTitle:
       en: No clipboard content
       pl: Brak zawartości schowka
+      zh-TW: 無剪貼簿內容
+      zh-CN: 无剪切板内容
 
   Copy:
     en: Copy
     pl: Kopiuj
+    zh-TW: 複製
+    zh-CN: 复制
 
   CopyAsText:
     en: Copy as text
     pl: Kopiuj jako tekst
+    zh-TW: 以文字形式複製
+    zh-CN: 以文本形式复制
 
   CopySelected:
     en: Copy selected text
     pl: Kopiuj zaznaczony tekst
+    zh-TW: 複製選取的文字
+    zh-CN: 复制选中的文本
 
   ConfirmationTitle:
     en: Confirmation
     pl: Potwierdzenie
+    zh-TW: 確認
+    zh-CN: 确认
 
   ErrorMessageTitle:
     en: Error
     pl: Błąd
+    zh-TW: 錯誤
+    zh-CN: 错误
 
   File:
     BMP:
       en: BMP file
       pl: Plik BMP
+      zh-TW: BMP 檔案
+      zh-CN: BMP 文件
     JPEG:
       en: JPEG file
       pl: Plik JPEG
+      zh-TW: JPEG 檔案
+      zh-CN: JPEG 文件
     PNG:
       en: PNG file
       pl: Plik PNG
+      zh-TW: PNG 檔案
+      zh-CN: PNG 文件
     TXT:
       en: Text file
       pl: Plik tekstowy
+      zh-TW: 文字檔案
+      zh-CN: 文本文件
 
   ListDragDropInfo:
     en: Drag and drop items to change order
     pl: Przeciągnij elementy, by zmienić kolejność
+    zh-TW: 拖放項目以變更順序
+    zh-CN: 拖放项目以更改顺序
 
   ListIsEmpty:
     en: The list is empty
     pl: Brak elementów w liście
+    zh-TW: 清單為空
+    zh-CN: 列表为空
 
   Paste:
     en: Paste
     pl: Wklej
+    zh-TW: 貼上
+    zh-CN: 粘贴
 
   PasteAsText:
     en: Paste as text
     pl: Wklej jako tekst
+    zh-TW: 以文字形式貼上
+    zh-CN: 以文本形式粘贴
 
 
   OpenInDefaultApp:
     en: Open in default application
     pl: Otwórz w domyślnej aplikacji
+    zh-TW: 在預設應用程式中開啟
+    zh-CN: 在默认应用程序中打开
 
   OpenInDefaultBrowser:
     en: Open in default browser
     pl: Otwórz w domyślnej przeglądarce
+    zh-TW: 在預設瀏覽器中開啟
+    zh-CN: 在默认浏览器中打开
 
   OpenWith:
     en: "Open with: {0}"
     pl: "Otwórz z: {0}"
+    zh-TW: "使用以下方式開啟：{0}"
+    zh-CN: "使用以下方式打开：{0}"
 
   SignInButton:
     en: Sign in now
     pl: Zaloguj teraz
+    zh-TW: 立即登入
+    zh-CN: 立即登录
 
   SelectPlaceholder:
     en: Select...
     pl: Wybierz...
+    zh-TW: 選擇...
+    zh-CN: 选择...
 
   TestButton:
     en: Test
     pl: Test
+    zh-TW: 測試
+    zh-CN: 测试
 
 TrayMenu:
   CheckForUpdates:
     en: Check for updates
     pl: Sprawdź aktualizacje
+    zh-TW: 檢查更新
+    zh-CN: 检查更新
 
   ShowPaste:
     en: Paste
     pl: Wklej
+    zh-TW: 貼上
+    zh-CN: 粘贴
 
   ShowSettings:
     en: Settings
     pl: Ustawienia
+    zh-TW: 設定
+    zh-CN: 设置
 
   Shutdown:
     en: Exit
     pl: Zamknij aplikacje
+    zh-TW: 結束
+    zh-CN: 退出
 
   OpenContactsPage:
     en: Send suggestions
     pl: Prześlij sugestie
+    zh-TW: 傳送建議
+    zh-CN: 发送建议
 
 NotificationButton:
   CopyToClipboard:
     en: Copy to Clipboard
     pl: Kopiuj do schowka
+    zh-TW: 複製到剪貼簿
+    zh-CN: 复制到剪切板
   OpenUri:
     en: Open
     pl: Otwórz
+    zh-TW: 開啟
+    zh-CN: 打开
   ShowInApp:
     en: Show in app
     pl: Pokaż w aplikacji
+    zh-TW: 在應用程式中顯示
+    zh-CN: 在应用程序中显示
   Close:
     en: Close
     pl: Zamknij
+    zh-TW: 關閉
+    zh-CN: 关闭

@@ -2,52 +2,82 @@ AccountSettingsControl:
   AccountInfoDescription:
     en: Information about the current account and user session
     pl: Informacje o bieżącym stanie konta i sesji użytkownika
+    zh-TW: 關於目前帳戶和使用者工作階段的資訊
+    zh-CN: 关于当前账户和用户会话的信息
   AccountInfoHeader:
     en: Login status
     pl: Status logowania
+    zh-TW: 登入狀態
+    zh-CN: 登录状态
   GroupName:
     en: User account
     pl: Konto użytkownika
+    zh-TW: 使用者帳戶
+    zh-CN: 用户账户
   Description:
     en: Manage access and user data
     pl: Zarządzanie dostępem i danymi konta
+    zh-TW: 管理存取權和使用者資料
+    zh-CN: 管理访问权限和用户数据
 
 ActivitySettingsWindow:
   ActivityNameLabel:
     en: Activity name
     pl: Nazwa aktywności
+    zh-TW: 活動名稱
+    zh-CN: 活动名称
   Title:
     en: Activity settings   ({m.DisplayName})
     pl: Ustawienia aktywności   ({m.DisplayName})
+    zh-TW: 活動設定   ({m.DisplayName})
+    zh-CN: 活动设置   ({m.DisplayName})
   ItemDataTypeSelectorLabel:
     en: Active data types
     pl: Aktywne dla typów danych
+    zh-TW: 啟用的資料類型
+    zh-CN: 启用的数据类型
 
 AiActivityBaseControl:
   ConnectionLabel:
     en: Connection
     pl: Połączenie
+    zh-TW: 連線
+    zh-CN: 连接
   EnableToolsLabel:
     en: Enable tools
     pl: Włącz narzędzia
+    zh-TW: 啟用工具
+    zh-CN: 启用工具
   CreateMcpServerConnection:
     en: Create connection
     pl: Utwórz połączenie
+    zh-TW: 建立連線
+    zh-CN: 创建连接
   MainSettingsTabHeader:
     en: AI settings
     pl: Ustawienia AI
+    zh-TW: AI 設定
+    zh-CN: AI 设置
   ModelLabel:
     en: Model
     pl: Model
+    zh-TW: 模型
+    zh-CN: 模型
   McpServerConnectionNameLabel:
     en: MCP server connection name
     pl: Nazwa połączenia
+    zh-TW: MCP 伺服器連線名稱
+    zh-CN: MCP 服务器连接名称
   McpServersLabel:
     en: MCP servers
     pl: Serwery MCP
+    zh-TW: MCP 伺服器
+    zh-CN: MCP 服务器
   PromptTemplateLabel:
     en: Prompt template
     pl: Szablon promptu
+    zh-TW: 提示範本
+    zh-CN: 提示模板
   PromptTemplateInfo:
     en: |-
       You can use the following variables in this prompt:
@@ -57,26 +87,46 @@ AiActivityBaseControl:
       W tym szablonie promptu możesz użyć następujących zmiennych:
         - {{Clipboard.Text}}: Tekst aktualnego elementu schowka.
         - {{UILanguage}}: Język wybrany dla interfejsu użytkownika.
+    zh-TW: |-
+      您可以在此提示中使用以下變數：
+        - {{Clipboard.Text}}：目前剪貼簿項目的文字。
+        - {{UILanguage}}：為使用者介面選擇的語言。
+    zh-CN: |-
+      您可在此提示中使用以下变量：
+        - {{Clipboard.Text}}：当前剪切板项的文本。
+        - {{UILanguage}}：为用户界面选择的语言。
   ToolsTabHeader:
     en: Tools
     pl: Narzędzia
+    zh-TW: 工具
+    zh-CN: 工具
 
 AppSettingsControl:
   GroupName:
     en: Application
     pl: Aplikacja
+    zh-TW: 應用程式
+    zh-CN: 应用程序
   Description:
     en: Manage the configuration and preferences for application
     pl: Zarządzaj konfiguracją i preferencjami aplikacji
+    zh-TW: 管理應用程式的設定與偏好
+    zh-CN: 管理应用程序的配置和首选项
   ClearHistoryButton:
     en: Clear history
     pl: Wyczyść historie
+    zh-TW: 清除歷史記錄
+    zh-CN: 清除历史记录
   HistoryStorageDescription:
     en: Select how long to keep clipboard history
     pl: Wybierz czas przechowywania historii schowka
+    zh-TW: 選擇剪貼簿歷史要保留多久
+    zh-CN: 选择剪切板历史的保留时间
   HistoryStorageHeader:
     en: Clipboard history storage
     pl: Przechowywanie historii schowka
+    zh-TW: 剪貼簿歷史保存
+    zh-CN: 剪切板历史存储
   LanguageDescription:
     en: |
       Change the current application language.
@@ -84,21 +134,37 @@ AppSettingsControl:
     pl: |
       Zmień bieżący język aplikacji.
       Zmiany zostaną zastosowane po ponownym uruchomieniu.
+    zh-TW: |
+      變更目前的應用程式語言。
+      變更會在重新啟動後生效。
+    zh-CN: |
+      更改当前应用程序语言。
+      更改将在重新启动后生效。
   LanguageHeader:
     en: Language
     pl: Język
+    zh-TW: 語言
+    zh-CN: 语言
   NeedRestart:
     en: Restart the app for changes to take effect.
     pl: Uruchom ponownie aplikację dla zastosowania zmian.
+    zh-TW: 重新啟動應用程式以套用變更。
+    zh-CN: 重新启动应用程序以使更改生效。
   OpenSystemSettings:
     en: Open system settings
     pl: Otwórz ustawienia systemowe
+    zh-TW: 開啟系統設定
+    zh-CN: 打开系统设置
   PasteWindowPlacementDescription:
     en: Adjust the position of the main application window
     pl: Wybierz pozycje na ekranie dla głównego okna aplikacji
+    zh-TW: 調整主應用程式視窗在螢幕上的位置
+    zh-CN: 调整主应用程序窗口在屏幕上的位置
   PasteWindowPlacementHeader:
     en: Main window position
     pl: Pozycja głównego okna aplikacji
+    zh-TW: 主視窗位置
+    zh-CN: 主窗口位置
   PasteWindowSizeDescription:
     en: |
       Adjust the size of the main application window and its contents
@@ -106,53 +172,89 @@ AppSettingsControl:
     pl: |
       Dostosuj rozmiar głównego okna aplikacji i jego zawartości
       (wyświetlającej schowek) w zakresie od 100% do 150%
+    zh-TW: |
+      調整主應用程式視窗及其內容（剪貼簿顯示）的大小，
+      範圍介於 100% 到 150%。
+    zh-CN: |
+      调整主应用程序窗口及其内容（剪切板显示）的大小，
+      范围在 100% 到 150% 之间。
   PasteWindowSizeHeader:
     en: Main window size
     pl: Rozmiar głównego okna aplikacji
+    zh-TW: 主視窗大小
+    zh-CN: 主窗口大小
   RestartNow:
     en: Restart now
     pl: Uruchom ponownie teraz
+    zh-TW: 立刻重新啟動
+    zh-CN: 立即重新启动
   RunAtStartupHeader:
     en: Run at startup
     pl: Uruchamiaj przy starcie systemu
+    zh-TW: 開機時啟動
+    zh-CN: 开机时启动
   RunAtStartupDescription:
     en: Launch the application automatically when your system starts
     pl: Uruchamiaj aplikację automatycznie przy starcie systemu
+    zh-TW: 在系統啟動時自動啟動此應用程式
+    zh-CN: 在系统启动时自动启动此应用程序
   ScreenSelectionDescription:
     en: Select the monitor for display application windows
     pl: Wybierz monitor do wyświetlenia okien aplikacji
+    zh-TW: 選擇顯示應用程式視窗的螢幕
+    zh-CN: 选择用于显示应用程序窗口的显示器
   ScreenSelectionHeader:
     en: Monitor selection
     pl: Wybór monitora
+    zh-TW: 螢幕選擇
+    zh-CN: 显示器选择
   Theme:
     en: Application theme
     pl: Motyw aplikacji
+    zh-TW: 應用程式佈景主題
+    zh-CN: 应用程序主题
   UserInterfaceDensityDescription:
     en: Change user interface density
     pl: Zmień zagęszczenie interfejsu użytkownika
+    zh-TW: 調整使用者介面的緊湊程度
+    zh-CN: 调整用户界面的紧凑程度
   UserInterfaceDensityHeader:
     en: User interface density
     pl: Zagęszczenie interfejsu użytkownika
+    zh-TW: 使用者介面密度
+    zh-CN: 用户界面密度
 
 AutomationService:
   ActivityExecutionFailed:
     en: "Activity execution failed: {v.ActivityName}"
     pl: "Błąd rozszerzenia: {v.ActivityName}"
+    zh-TW: "活動執行失敗：{v.ActivityName}"
+    zh-CN: "活动执行失败：{v.ActivityName}"
   WorkflowExecutionFailed:
     en: "Workflow execution failed: {v.Name}"
     pl: "Błąd workflow: {v.Name}"
+    zh-TW: "工作流程執行失敗：{v.Name}"
+    zh-CN: "工作流执行失败：{v.Name}"
   ExecutingActivity:
     en: Executing {m.Name} ...
     pl: Wykonywanie {m.Name} ...
+    zh-TW: 正在執行 {m.Name} …
+    zh-CN: 正在执行 {m.Name} …
   ExecutingWorkflow:
     en: Executing workflow {m.Name} ...
     pl: Wykonywanie workflow {m.Name} ...
+    zh-TW: 正在執行工作流程 {m.Name} …
+    zh-CN: 正在执行工作流 {m.Name} …
   SignInButton:
     en: Sign in
     pl: Zaloguj się
+    zh-TW: 登入
+    zh-CN: 登录
   UserNotLoggedExceptionTitle:
     en: Sign in to use this feature
     pl: Zaloguj się, aby skorzystać z tej funkcji
+    zh-TW: 登入即可使用此功能
+    zh-CN: 登录后即可使用此功能
 
   UserNotLoggedExceptionMessage:
     en: |
@@ -163,93 +265,155 @@ AutomationService:
       Aby skorzystać z tej funkcji, musisz być zalogowany.
 
       Użyj przycisku poniżej, aby przejść do ustawień logowania.
+    zh-TW: |
+      您必須先登入才能使用此功能。
+
+      使用下方按鈕開啟登入設定。
+    zh-CN: |
+      您必须先登录才能使用此功能。
+
+      使用下方按钮打开登录设置。
 
 ClipGroupWindow:
   Title:
     en: Pinboard
     pl: Pinboard
+    zh-TW: 釘選板
+    zh-CN: 钉选板
   GroupNameLabel:
     en: "Name:"
     pl: "Nazwa:"
+    zh-TW: "名稱："
+    zh-CN: "名称："
   GroupColorLabel:
     en: "Color:"
     pl: "Kolor:"
+    zh-TW: "顏色："
+    zh-CN: "颜色："
 
 ClipItemControl:
   CopySharingInfoMenuItem:
     en: Copy share link
     pl: Kopiuj link udostępnienia
+    zh-TW: 複製分享連結
+    zh-CN: 复制分享链接
   CopySharingInfoWithPasswordMenuItem:
     en: Copy share link and password
     pl: Kopiuj element udostępniony oraz hasło
+    zh-TW: 複製分享連結與密碼
+    zh-CN: 复制分享链接和密码
   DeleteShareMenuItem:
     en: Delete shared data
     pl: Usuń udostępniane dane
+    zh-TW: 刪除已分享的資料
+    zh-CN: 删除已分享的数据
   DeleteMenuItem:
     en: Delete item
     pl: Usuń element
+    zh-TW: 刪除項目
+    zh-CN: 删除项目
   FilesFooterPreviewInfo:
     en: "{v.Files.Count} files"
     pl: "{v.Files.Count} plików"
+    zh-TW: "{v.Files.Count} 個檔案"
+    zh-CN: "{v.Files.Count} 个文件"
   ImageFooterPreviewInfo:
     en: "Size: {v.Width}x{v.Height} {v.BitsPerPixel} BPP"
     pl: "Rozmiar: {v.Width}x{v.Height} {v.BitsPerPixel} BPP"
+    zh-TW: "大小：{v.Width}x{v.Height} {v.BitsPerPixel} 位元/像素"
+    zh-CN: "大小：{v.Width}x{v.Height} {v.BitsPerPixel} 位/像素"
   OpenUriTooltip:
     en: "Open linked item:\n{v}"
     pl: "Otwórz powiązany element:\n{v}"
+    zh-TW: "開啟連結的項目：\n{v}"
+    zh-CN: "打开关联项目：\n{v}"
   OpenFileErrorDialogTitle:
     en: Error opening file
     pl: Błąd podczas otwierania pliku
+    zh-TW: 開啟檔案時發生錯誤
+    zh-CN: 打开文件时出错
   PinGroupsMenuItem:
     en: Pin item
     pl: Przypnij element
+    zh-TW: 將項目釘選
+    zh-CN: 钉选项目
   PinToNewGroupMenuItem:
     en: "Pin to new pinboard…"
     pl: "Przypnij do nowego pinboardu…"
+    zh-TW: "釘選到新的釘選板…"
+    zh-CN: "钉选到新的钉选板…"
   PinToNewGroupMenuItemTooltip:
     en: Create a new pinboard and pin this item to it
     pl: Utwórz nowy pinboard i przypnij do niego ten element
+    zh-TW: 建立新的釘選板並將此項目釘選到該板
+    zh-CN: 创建新的钉选板并将此项目钉选到其中
   ShareItemCancelJob:
     en: Cancel operation
     pl: Anuluj operacje
+    zh-TW: 取消作業
+    zh-CN: 取消操作
   ShareItemLinkBadge:
     en: Share link
     pl: Link udostępnienia
+    zh-TW: 分享連結
+    zh-CN: 分享链接
   ShareItemSubmenu:
     en: Sharing
     pl: Udostępnianie
+    zh-TW: 分享
+    zh-CN: 分享
   ShareMenuItem:
     en: Share item
     pl: Udostępnij element
+    zh-TW: 分享項目
+    zh-CN: 分享项目
   ShareSettingsMenuItem:
     en: Share settings
     pl: Ustawienia udostępniania
+    zh-TW: 分享設定
+    zh-CN: 分享设置
   RenameMenuItem:
     en: Rename item
     pl: Zmień nazwę elementu
+    zh-TW: 重新命名項目
+    zh-CN: 重命名项目
   RenameItemDialogTitle:
     en: Rename item
     pl: Zmiana nazwy elementu
+    zh-TW: 重新命名項目
+    zh-CN: 重命名项目
   RenameItemDialogLabel:
     en: "Name:"
     pl: "Nazwa:"
+    zh-TW: "名稱："
+    zh-CN: "名称："
   RunMenuItem:
     en: Run
     pl: Uruchom
+    zh-TW: 執行
+    zh-CN: 运行
   SaveAsMenuItem:
     en: Save as
     pl: Zapisz jako
+    zh-TW: 另存新檔
+    zh-CN: 另存为
   TextFooterPreviewInfo:
     en: "Length: {v} characters"
     pl: "Długość: {v} znaków"
+    zh-TW: "長度：{v} 個字元"
+    zh-CN: "长度：{v} 个字符"
   UnpinItemMenuItem:
     en: Unpin item
     pl: Odepnij element
+    zh-TW: 取消釘選項目
+    zh-CN: 取消钉选项目
 
 DeleteHistoryWindow:
   Title:
     en: Delete clipboard history
     pl: Usuń historie schowka
+    zh-TW: 刪除剪貼簿歷史
+    zh-CN: 删除剪切板历史
   InfoMessage:
     en: |
       Elements that were used within the specified time range will be deleted
@@ -257,169 +421,271 @@ DeleteHistoryWindow:
     pl: |
       Elementy użyte w wybranym zakresie czasowym zostaną usunięte.
       Elementy umieszczane w pinboardach nie zostaną usunięte.
+    zh-TW: |
+      在指定時間範圍內使用過的項目將會被刪除。
+      釘選在釘選板上的項目不會被刪除。
+    zh-CN: |
+      在指定时间范围内使用过的项目将被删除。
+      钉选在钉选板上的项目不会被删除。
   TimeRangeLabel:
     en: "History time range to delete:"
     pl: "Przedział czasowy do usunięcia:"
+    zh-TW: "要刪除的歷史時間範圍："
+    zh-CN: "要删除的历史时间范围："
   DeleteHistoryConfirmation:
     en: "Are you sure you want to delete clipboard history from selected time range?"
     pl: "Czy na pewno chcesz usunąć historie schowka z wskazanego przedziału czasowego?"
+    zh-TW: "確定要刪除所選時間範圍內的剪貼簿歷史嗎？"
+    zh-CN: "确定要删除所选时间范围内的剪切板历史吗？"
 
 ExtensionsSettingsControl:
   GroupName:
     en: Extensions
     pl: Rozszerzenia
+    zh-TW: 擴充功能
+    zh-CN: 扩展
   CreateActivityTooltip:
     en: Create new activity
     pl: Utwórz nowe rozszerzenie
+    zh-TW: 建立新的活動
+    zh-CN: 创建新的活动
   Description:
     en: Manage the extensions and plugins
     pl: Zarządzaj rozszerzeniami i wtyczkami
+    zh-TW: 管理擴充功能與外掛
+    zh-CN: 管理扩展和插件
   DeleteActivityConfirmation:
     en: "Are you sure you want to delete '{v.Name}'?"
     pl: "Czy na pewno chcesz usunąć '{v.Name}'?"
+    zh-TW: "確定要刪除「{v.Name}」嗎？"
+    zh-CN: "确定要删除“{v.Name}”吗？"
   EditActivityTooltip:
     en: Edit activity settings
     pl: Edytuj ustawienia rozszerzenia
+    zh-TW: 編輯活動設定
+    zh-CN: 编辑活动设置
 
 ExternalConnectionSelector:
   CreateConnectionToolTip:
     en: Create new connection to external service
     pl: Utwórz nowe połączenie z serwisem zewnętrznym
+    zh-TW: 建立與外部服務的新連線
+    zh-CN: 创建到外部服务的新连接
   EditConnectionToolTip:
     en: Edit connection to external service
     pl: Edytuj połączenie z serwisem zewnętrznym
+    zh-TW: 編輯與外部服務的連線
+    zh-CN: 编辑到外部服务的连接
   NotConnectedMessage:
     en: Connection to external service is not fully configured
     pl: Połączenie z serwisem nie jest w pełni skonfigurowane
+    zh-TW: 與外部服務的連線尚未完全設定
+    zh-CN: 到外部服务的连接尚未完全配置
 
 ExternalConnectionSettingsWindow:
   Title:
     en: Define external connection
     pl: Definicja połączenia zewnętrznego
+    zh-TW: 定義外部連線
+    zh-CN: 定义外部连接
   ApiKeyLabel:
     en: API key
     pl: Klucz API
+    zh-TW: API 金鑰
+    zh-CN: API 密钥
   ConnectorTypeLabel:
     en: Select connector type
     pl: Wybierz typ połączenia
+    zh-TW: 選擇連線類型
+    zh-CN: 选择连接类型
   ConnectionNameLabel:
     en: Connection name
     pl: Nazwa połączenia
+    zh-TW: 連線名稱
+    zh-CN: 连接名称
   DeleteConnectionConfirmation:
     en: "Are you sure you want to delete connection?"
     pl: "Czy na pewno chcesz usunąć połączenie ?"
+    zh-TW: "確定要刪除此連線嗎？"
+    zh-CN: "确定要删除此连接吗？"
   DisconnectButton:
     Text:
       en: Disconnect
       pl: Rozłącz
+      zh-TW: 中斷連線
+      zh-CN: 断开连接
     Tooltip:
       en: Disconnect from external service and remove connection data
       pl: Rozłącz z serwisem zewnętrznym i usuń dane połączenia
+      zh-TW: 中斷與外部服務的連線並移除連線資料
+      zh-CN: 断开与外部服务的连接并删除连接数据
   ExternalUserIdLabel:
     en: "External account id: "
     pl: "Identyfikator użytkownika: "
+    zh-TW: "外部帳戶 ID："
+    zh-CN: "外部账户 ID："
   LoginInProgressInfoMessage:
     en: Complete the login in your web browser, or click "Cancel" to stop the process
     pl: Dokończ logowanie w przeglądarce internetowej lub kliknij „Przerwij”, aby zakończyć proces
+    zh-TW: 請在瀏覽器中完成登入，或按「取消」以停止此程序
+    zh-CN: 请在浏览器中完成登录，或点击“取消”以停止该过程
   LoginButton:
     Text:
       en: Connect
       pl: Połącz
+      zh-TW: 連線
+      zh-CN: 连接
     Tooltip:
       en: Connect to external service
       pl: Połącz z serwisem zewnętrznym
+      zh-TW: 連線到外部服務
+      zh-CN: 连接到外部服务
   OAuthUserNotLogged:
     en: Not logged in
     pl: Nie zalogowany
+    zh-TW: 未登入
+    zh-CN: 未登录
   NotLoggedInInfoMessage:
     en: Click the "Connect" button to open a web browser window and sign in
     pl: Kliknij „Połącz”, aby otworzyć przeglądarkę i rozpocząć proces połączenia z serwisem
+    zh-TW: 點擊「連線」按鈕以開啟瀏覽器視窗並登入
+    zh-CN: 点击“连接”按钮以打开浏览器窗口并登录
   UrlLabel:
     en: Server URL
     pl: Adres URL serwera
+    zh-TW: 伺服器 URL
+    zh-CN: 服务器 URL
 
 
 ExternalConnectionsListControl:
   GroupName:
     en: Connections
     pl: Połączenia
+    zh-TW: 連線
+    zh-CN: 连接
   ColumnName:
     en: Connection name
     pl: Nazwa połączenia
+    zh-TW: 連線名稱
+    zh-CN: 连接名称
   ColumnActions:
     en: Actions
     pl: Działania
+    zh-TW: 動作
+    zh-CN: 操作
   CreateConnection:
     en: Create connection
     pl: Utwórz połączenie
+    zh-TW: 建立連線
+    zh-CN: 创建连接
   Description:
     en: Connection settings with external services
     pl: Ustawienia połączeń z zewnętrznymi serwisami
+    zh-TW: 與外部服務相關的連線設定
+    zh-CN: 与外部服务相关的连接设置
   DeleteConnectionConfirmation:
     en: "Are you sure you want to connection named: {m.Name}?"
     pl: "Czy na pewno chcesz usunąć połączenie o nazwie: {m.Name}?"
+    zh-TW: "確定要刪除名稱為 {m.Name} 的連線嗎？"
+    zh-CN: "确定要删除名称为 {m.Name} 的连接吗？"
 
 HistorySettingsControl:
   GroupName:
     en: History
     pl: Historia
+    zh-TW: 歷史記錄
+    zh-CN: 历史记录
   Description:
     en: Manage clipboard history options
     pl: Zarządzanie opcjami historii schowka
+    zh-TW: 管理剪貼簿歷史的相關選項
+    zh-CN: 管理剪切板历史选项
   ClearHistoryButton:
     en: Clear history
     pl: Wyczyść historie
+    zh-TW: 清除歷史記錄
+    zh-CN: 清除历史记录
   HistoryStorageDescription:
     en: Select how long to keep clipboard history
     pl: Wybierz czas przechowywania historii schowka
+    zh-TW: 選擇剪貼簿歷史要保留多久
+    zh-CN: 选择剪切板历史的保留时间
   HistoryStorageHeader:
     en: Clipboard history storage
     pl: Przechowywanie historii schowka
+    zh-TW: 剪貼簿歷史保存
+    zh-CN: 剪切板历史存储
 
 IgnoredApplicationsSettingsControl:
   GroupName:
     en: Ignored applications
     pl: Ignorowane aplikacje
+    zh-TW: 已忽略的應用程式
+    zh-CN: 已忽略的应用程序
   Description:
     en: Manage applications excluded from clipboard monitoring
     pl: Zarządzanie aplikacjami wykluczonymi z monitorowania schowka
+    zh-TW: 管理從剪貼簿監控中排除的應用程式
+    zh-CN: 管理从剪切板监控中排除的应用程序
   AddApplication:
     en: Add application
     pl: Dodaj aplikację
+    zh-TW: 新增應用程式
+    zh-CN: 新增应用程序
   ColumnName:
     en: Application name
     pl: Nazwa aplikacji
+    zh-TW: 應用程式名稱
+    zh-CN: 应用程序名称
   DeleteApplicationConfirmation:
     en: "Are you sure you want to remove '{m.Description}' from the ignored applications list?"
     pl: "Czy na pewno chcesz usunąć '{m.Description}' z listy ignorowanych aplikacji?"
+    zh-TW: "確定要從忽略清單中移除「{m.Description}」嗎？"
+    zh-CN: "确定要将“{m.Description}”从忽略列表中移除吗？"
   SelectExecutableTitle:
     en: Select executable (.exe, .com)
     pl: Wybierz plik wykonywalny (.exe, .com)
+    zh-TW: 選擇可執行檔（.exe、.com）
+    zh-CN: 选择可执行文件（.exe、.com）
 
 KeystrokesEditorWindow:
   Title:
     en: Keystrokes editor
     pl: Edytor sekwencji klawiszy
+    zh-TW: 按鍵序列編輯器
+    zh-CN: 按键序列编辑器
   AddKeystrokeItemButton:
     en: Add item
     pl: Dodaj element
+    zh-TW: 新增項目
+    zh-CN: 新增项目
   SecondsLabel:
     en: "(sec)"
     pl: "(sekund)"
+    zh-TW: "（秒）"
+    zh-CN: "（秒）"
   TextItemWatermark:
     en: Enter text
     pl: Wprowadź tekst
+    zh-TW: 輸入文字
+    zh-CN: 输入文本
 
 n8nCategoryControl:
   APIKeyText:
     en: API Key
     pl: Klucz API
+    zh-TW: API 金鑰
+    zh-CN: API 密钥
   APIKeyMessage:
     en: Here is your API key — make sure to copy it
     pl: To jest Twój klucz API - upewnij się że go skopiowałeś
+    zh-TW: 這是您的 API 金鑰——請記得將它複製下來
+    zh-CN: 这是您的 API 密钥——请务必将其复制下来
   CreateAPIKeyButton:
     en: Generate API Key
     pl: Wygeneruj klucz API
+    zh-TW: 產生 API 金鑰
+    zh-CN: 生成 API 密钥
   InfoMessage:
     en: |
       To connect with n8n, generate an API key using the button below.
@@ -433,9 +699,23 @@ n8nCategoryControl:
       Klucz nie jest nigdzie zapisywany — pojawi się tutaj tylko po wygenerowaniu.
       Skopiuj go i użyj w platformie n8n.
       Ponowne wygenerowanie klucza unieważni poprzedni.
+    zh-TW: |
+      若要連線至 n8n，請使用下方按鈕產生 API 金鑰。
+
+      金鑰不會儲存在任何地方——只會在產生後顯示於此。
+      請將它複製並用於您的 n8n 平台。
+      重新產生金鑰會使先前的金鑰失效。
+    zh-CN: |
+      如要连接到 n8n，请使用下方按钮生成 API 密钥。
+
+      密钥不会保存在任何地方——只会在生成后显示在此处。
+      请将其复制并用于您的 n8n 平台。
+      重新生成密钥会使之前的密钥失效。
   UserNotLoggedTitle:
     en: Sign in to use this feature
     pl: Zaloguj się, aby skorzystać z tej funkcji
+    zh-TW: 登入即可使用此功能
+    zh-CN: 登录后即可使用此功能
   UserNotLoggedMessage:
     en: |
       You must be signed in to use this feature.
@@ -445,14 +725,26 @@ n8nCategoryControl:
       Aby skorzystać z tej funkcji, musisz być zalogowany.
 
       Zamknij to okno i przejdź do zakładki "Konto użytkownika" by się zalogować.
+    zh-TW: |
+      您必須先登入才能使用此功能。
+
+      關閉此視窗後，前往「使用者帳戶」分頁進行登入。
+    zh-CN: |
+      您必须先登录才能使用此功能。
+
+      关闭此窗口后，前往“用户账户”标签页进行登录。
 
 PasteWindow:
   ActiveAppLabel:
     en: "Active:"
     pl: "Aktywna:"
+    zh-TW: "作用中："
+    zh-CN: "活动："
   DeleteClipGroupMenuItem:
     en: Delete pinboard
     pl: Usuń pinboard
+    zh-TW: 刪除釘選板
+    zh-CN: 删除钉选板
   DeleteClipGroupConfirmation:
     en: |
       Are you sure you want to delete pinboard named: {m.Name}?
@@ -462,36 +754,64 @@ PasteWindow:
       Czy na pewno chcesz usunąć pinboard o nazwie: {m.Name}?
 
       Jeżeli usuniesz ten pinboard, wszystkie elementy w nim znajdujące sie w nim zostaną przeniesione do grupy głównej.
+    zh-TW: |
+      確定要刪除名稱為 {m.Name} 的釘選板嗎？
+
+      若刪除此釘選板，其中的所有項目都會移到主群組。
+    zh-CN: |
+      确定要删除名为 {m.Name} 的钉选板吗？
+
+      如果删除此钉选板，其中的所有项目都会移动到主分组。
   DeleteClipItemConfirmation:
     en: "Are you sure you want to delete item?"
     pl: "Czy na pewno chcesz usunąć element?"
+    zh-TW: "確定要刪除此項目嗎？"
+    zh-CN: "确定要删除此项目吗？"
   EditClipGroupMenuItem:
     en: Edit pinboard
     pl: Edytuj pinboard
+    zh-TW: 編輯釘選板
+    zh-CN: 编辑钉选板
   CreateClipGroupTip:
     en: Create new pinboard
     pl: Stwórz nowy pinboard
+    zh-TW: 建立新的釘選板
+    zh-CN: 创建新的钉选板
   RunMenuItem:
     en: Run
     pl: Uruchom
+    zh-TW: 執行
+    zh-CN: 运行
   RunWorkflowsMenuItem:
     en: Run workflows
     pl: Uruchom workflow
+    zh-TW: 執行工作流程
+    zh-CN: 运行工作流
   SearchOnlyInSharedPrefix:
     en: Shared
     pl: Udostępnione
+    zh-TW: 已分享
+    zh-CN: 已分享
   SearchOnlyInSharedLabel:
     en: Only shared items
     pl: Tylko udostępnione
+    zh-TW: 僅顯示已分享的項目
+    zh-CN: 仅显示已分享的项目
   SearchText:
     en: Search ...
     pl: Szukaj ...
+    zh-TW: 搜尋…
+    zh-CN: 搜索…
   SettingsButton:
     en: Settings
     pl: Ustawienia
+    zh-TW: 設定
+    zh-CN: 设置
   ShareSignInTitle:
     en: Sign in to use cloud features
     pl: Zaloguj się, aby korzystać z chmury
+    zh-TW: 登入即可使用雲端功能
+    zh-CN: 登录后即可使用云端功能
   ShareSignInMessage:
     en: |
       You must be signed in to use this feature.
@@ -505,29 +825,53 @@ PasteWindow:
       Po zalogowaniu udostępnisz schowek i zyskasz 10 GB w chmurze.
 
       Użyj przycisku poniżej, by przejść do ustawień logowania.
+    zh-TW: |
+      您必須先登入才能使用此功能。
+
+      登入後即可分享剪貼簿，並享有 10 GB 的免費雲端儲存空間。
+
+      使用下方按鈕開啟登入設定。
+    zh-CN: |
+      您必须先登录才能使用此功能。
+
+      登录后即可分享剪切板，并享有 10 GB 免费云端存储空间。
+
+      使用下方按钮打开登录设置。
   StartProcessConfirmationTitle:
     en: "Warning: external process execution"
     pl: "Uwaga: uruchomienie zewnętrznego programu"
+    zh-TW: "警告：將執行外部程式"
+    zh-CN: "警告：即将执行外部程序"
   StartProcessConfirmation:
     en: "The extension wants to run the process: {v}\n\nDo you want to continue?"
     pl: "Rozszerzenie chce uruchomić program:\n{v}\n\nCzy chcesz kontynuować?"
+    zh-TW: "此擴充功能想要執行下列程式：{v}\n\n是否要繼續？"
+    zh-CN: "扩展想要运行以下程序：{v}\n\n是否继续？"
   StartProcessUnsupportedUri:
     en: "The format of the provided address or path is not recognized:\n{v}"
     pl: "Nie można rozpoznać formatu adresu lub ścieżki:\n{v}"
+    zh-TW: "無法辨識提供的位址或路徑格式：\n{v}"
+    zh-CN: "无法识别提供的地址或路径格式：\n{v}"
 
 ScreenSelectionControl:
   ScreenNumber:
     en: "Monitor number:"
     pl: "Numer monitora:"
+    zh-TW: "螢幕編號："
+    zh-CN: "显示器编号："
 
 SetupWizardWindow:
   Title:
     en: Clipboard Genie setup Wizard
     pl: Konfigurator Clipboard Genie
+    zh-TW: Clipboard Genie 安裝精靈
+    zh-CN: Clipboard Genie 安装向导
   AccountSettingsPage:
     Header:
       en: Sign in and get 10 GB of free cloud storage
       pl: Zaloguj się i zyskaj 10 GB w chmurze
+      zh-TW: 登入即可獲得 10 GB 免費雲端空間
+      zh-CN: 登录即可获得 10 GB 免费云端空间
     Description:
       en: |
         A user account is required to enable certain features of the application, such as sharing clipboard items via the cloud.
@@ -541,10 +885,24 @@ SetupWizardWindow:
         Każdy użytkownik otrzymuje 10 GB darmowej przestrzeni w chmurze na swoje dane.
 
         Możesz zalogować się teraz lub później w ustawieniach programu, jeśli będziesz tego potrzebował.
+      zh-TW: |
+        若要啟用部分功能（例如透過雲端分享剪貼簿項目），需要使用者帳戶。
+
+        每位使用者都可獲得 10 GB 的免費雲端儲存空間。
+
+        您可以現在登入，或稍後在應用程式設定中登入。
+      zh-CN: |
+        若要启用部分功能（例如通过云端分享剪切板项目），需要用户账户。
+
+        每位用户都可获得 10 GB 免费云端存储空间。
+
+        您可以现在登录，也可以稍后在应用程序设置中登录。
   AiSettingsPage:
     Header:
       en: OpenAI settings
       pl: Ustawienia OpenAI
+      zh-TW: OpenAI 設定
+      zh-CN: OpenAI 设置
     Description:
       en: |
         Predefined activities allow for processing clipboard items using AI. This requires providing your OpenAI API key.
@@ -554,20 +912,36 @@ SetupWizardWindow:
         Predefiniowane operacje pozwalają na przetwarzanie elementów schowka za pomocą AI. Wymaga to podania klucza API dla OpenAI.
 
         Możesz wprowadzić klucz teraz, lub dodać go później w ustawieniach programu.
+      zh-TW: |
+        預先定義的活動可使用 AI 處理剪貼簿項目。這需要您提供 OpenAI API 金鑰。
+
+        您可以現在輸入金鑰，或稍後在程式設定中加入。
+      zh-CN: |
+        预定义的活动可以使用 AI 处理剪切板项目。这需要您提供 OpenAI API 密钥。
+
+        您可以现在输入密钥，或稍后在程序设置中添加。
   AppHotKeyPage:
     Header:
       en: Set application hotkey
       pl: Ustaw skrót aplikacji
+      zh-TW: 設定應用程式快捷鍵
+      zh-CN: 设置应用程序快捷键
     Description:
       en: The application uses a global keyboard shortcut that allows you to activate it. If you want to change the shortcut, click the button below.
       pl: Aplikacja korzysta z globalnego skrótu klawiszowego, który pozwala na jej aktywację. Jeśli chcesz zmienić skrót, kliknij przycisk poniżej.
+      zh-TW: 應用程式使用全域鍵盤快捷鍵來啟動；若要變更快捷鍵，請按下方按鈕。
+      zh-CN: 应用程序使用全局键盘快捷键进行激活；如需更改快捷键，请点击下方按钮。
   WelcomePage:
     Header1:
       en: Thank you for installing Clipboard Genie
       pl: Dziękujemy za zainstalowanie Clipboard Genie
+      zh-TW: 感謝您安裝 Clipboard Genie
+      zh-CN: 感谢您安装 Clipboard Genie
     Header2:
       en: a Genie Laboratories product
       pl: produkt Genie Laboratories
+      zh-TW: Genie Laboratories 出品
+      zh-CN: Genie Laboratories 出品
     Description:
       en: |
         Get ready to set up application quickly and easily. In just a few simple steps, you'll have everything configured and ready to go.
@@ -577,22 +951,38 @@ SetupWizardWindow:
         Ten kreator pozwoli Ci szybko i łatwo skonfigurować aplikacje Clipboard Genie.
 
         Zaczynamy!
+      zh-TW: |
+        準備好快速、輕鬆地完成應用程式設定吧。只要幾個簡單步驟，就能完成所有設定並開始使用。
+
+        讓我們開始吧！
+      zh-CN: |
+        准备好快速、轻松地完成应用程序设置吧。只需几个简单步骤，就能完成所有配置并开始使用。
+
+        让我们开始吧！
 
 SettingsWindow:
   Title:
     en: Clipboard Genie Settings
     pl: Ustawienia Clipboard Genie
+    zh-TW: Clipboard Genie 設定
+    zh-CN: Clipboard Genie 设置
 
 ShareItemWindow:
   Title:
     en: Share item
     pl: Udostępnij element
+    zh-TW: 分享項目
+    zh-CN: 分享项目
   ExpirationDateDistance:
     en:
     pl: "{m} dni"
+    zh-TW: "{m} 天"
+    zh-CN: "{m} 天"
   GeneratePasswordButton:
     en: Generate
     pl: Generuj
+    zh-TW: 產生
+    zh-CN: 生成
   InfoMessage:
     en: |
       Selected item will be sent to the cloud and will be available under a unique link.
@@ -600,144 +990,238 @@ ShareItemWindow:
     pl: |
       Wybrany element zostanie przesłany do chmury i będzie dostępny pod unikalnym linkiem.
       Możesz dodać wiadomość, ustawić czas wygaśnięcia oraz opcjonalnie zabezpieczyć dostęp hasłem.
+    zh-TW: |
+      選取的項目將會上傳到雲端，並透過一個唯一連結提供存取。
+      您可以加入訊息、設定到期時間，並選擇是否以密碼保護。
+    zh-CN: |
+      选中的项目将被上传到云端，并通过一个唯一链接进行访问。
+      您可以添加消息、设置到期时间，并选择是否使用密码保护。
   MessageLabel:
     en: Message shown on the page (optional)
     pl: Wiadomość wyświetlana na stronie (opcjonalnie)
+    zh-TW: 頁面上顯示的訊息（選填）
+    zh-CN: 页面上显示的消息（可选）
   PasswordLabel:
     en: Password (optional)
     pl: Hasło (opcjonalnie)
+    zh-TW: 密碼（選填）
+    zh-CN: 密码（可选）
   RetentionLabel:
     en: Automatic cloud deletion
     pl: Automatyczne usunięcie z chmury
+    zh-TW: 自動從雲端刪除
+    zh-CN: 自动从云端删除
 
 ShortcutsSettingsControl:
   GroupName:
     en: Keyboard shortcuts
     pl: Skróty klawiatury
+    zh-TW: 鍵盤快捷鍵
+    zh-CN: 键盘快捷键
   Description:
     en: Manage application keyboard shortcuts
     pl: Zarządzanie skrótami klawiatury
+    zh-TW: 管理應用程式的鍵盤快捷鍵
+    zh-CN: 管理应用程序的键盘快捷键
   AppHotKeyDescription:
     en: Set the hotkey used to activate the application.
     pl: Ustaw skrót klawiaturowy używany do aktywacji aplikacji.
+    zh-TW: 設定用來啟動應用程式的快捷鍵。
+    zh-CN: 设置用于激活应用程序的快捷键。
   AppHotKeyHeader:
     en: Application hotkey
     pl: Skrót aplikacji
+    zh-TW: 應用程式快捷鍵
+    zh-CN: 应用程序快捷键
   GlobalShortcutsHeader:
     en: Global shortcuts
     pl: Skróty globalne
+    zh-TW: 全域快捷鍵
+    zh-CN: 全局快捷键
   CopyKeyGestureDescription:
     en: Set the hotkey used for copy selected item to the system clipboard
     pl: Skrót klawiaturowy dla wklejenia wybranego elementu do schowka systemowego
+    zh-TW: 設定將選取項目複製到系統剪貼簿的快捷鍵。
+    zh-CN: 设置用于将选中项目复制到系统剪切板的快捷键。
   CopyKeyGestureHeader:
     en: Copy to system clipboard
     pl: Skopiuj do schowka systemowego
+    zh-TW: 複製到系統剪貼簿
+    zh-CN: 复制到系统剪切板
   CopyAsTextKeyGestureDescription:
     en: Set the hotkey used for copy selected item as text to the system clipboard
     pl: Skrót klawiaturowy dla wklejenia wybranego elementu do schowka systemowego
+    zh-TW: 設定將選取項目以文字形式複製到系統剪貼簿的快捷鍵。
+    zh-CN: 设置用于将选中项目以文本形式复制到系统剪切板的快捷键。
   CopyAsTextKeyGestureHeader:
     en: Copy to system clipboard as text
     pl: Skopiuj jako tekst do schowka systemowego
+    zh-TW: 以文字形式複製到系統剪貼簿
+    zh-CN: 以文本形式复制到系统剪切板
   PasteWindowKeyGesturesHeader:
     en: Paste window shortcuts
     pl: Skróty okna schowka
+    zh-TW: 貼上視窗快捷鍵
+    zh-CN: 粘贴窗口快捷键
   PasteKeyGestureDescription:
     en: Set the hotkey used to paste selected item to the current application.
     pl: Skrót klawiaturowy dla wklejenia wybranego elementu do aktualnej aplikacji
+    zh-TW: 設定將選取項目貼到目前應用程式的快捷鍵。
+    zh-CN: 设置用于将选中项目粘贴到当前应用程序的快捷键。
   PasteKeyGestureHeader:
     en: Paste to current application
     pl: Wklej do aktualnej aplikacji
+    zh-TW: 貼到目前的應用程式
+    zh-CN: 粘贴到当前应用程序
   PasteAsTextKeyGestureDescription:
     en: Set the hotkey used to paste selected item as text to the current application.
     pl: Skrót klawiaturowy dla wklejenia wybranego elementu jako tekst do aktualnej aplikacji
+    zh-TW: 設定將選取項目以文字形式貼到目前應用程式的快捷鍵。
+    zh-CN: 设置用于将选中项目以文本形式粘贴到当前应用程序的快捷键。
   PasteAsTextKeyGestureHeader:
     en: Paste as text to current application
     pl: Wklej jako tekst do aktualnej aplikacji
+    zh-TW: 以文字形式貼到目前的應用程式
+    zh-CN: 以文本形式粘贴到当前应用程序
 
 
 WorkflowActivityEditorControl:
   AddExtensionActivity:
     en: Add activity from extensions
     pl: Dodaj aktywność z rozszerzeń
+    zh-TW: 從擴充功能新增活動
+    zh-CN: 从扩展中添加活动
   AddActivityButton:
     en: Add activity
     pl: Dodaj aktywność
+    zh-TW: 新增活動
+    zh-CN: 新增活动
   DeleteActivityConfirmation:
     en: "Are you sure you want to delete '{v.Name}'?"
     pl: "Czy na pewno chcesz usunąć '{v.Name}'?"
+    zh-TW: "確定要刪除「{v.Name}」嗎？"
+    zh-CN: "确定要删除“{v.Name}”吗？"
 
 WorkflowSettingsWindow:
   ActivitiesLabel:
     en: "Activities:"
     pl: "Aktywności:"
+    zh-TW: "活動："
+    zh-CN: "活动："
   AddApplicationButton:
     en: Add application
     pl: Dodaj aplikacje
+    zh-TW: 新增應用程式
+    zh-CN: 新增应用程序
   AddTriggerButton:
     en: Add trigger
     pl: Dodaj zdarzenie
+    zh-TW: 新增觸發條件
+    zh-CN: 新增触发条件
   ApplicationScopeLabel:
     en: "Application scope:"
     pl: "Zakres aplikacji:"
+    zh-TW: "應用程式範圍："
+    zh-CN: "应用程序范围："
   ClipboardTriggerLabel:
     en: Item copied to clipboard
     pl: Element skopiowany do schowka
+    zh-TW: 項目複製到剪貼簿時
+    zh-CN: 项目复制到剪切板时
   ClipboardFilterTriggerLabel:
     en: Item matching filter copied to the clipboard
     pl: Element pasujący do filtra skopiowany do schowka
+    zh-TW: 符合篩選條件的項目複製到剪貼簿時
+    zh-CN: 符合筛选条件的项目复制到剪切板时
   ClipboardFilterWatermark:
     en: Use button to set clipboard filter
     pl: Użyj przycisku dla ustawienia filtru
+    zh-TW: 使用按鈕設定剪貼簿篩選條件
+    zh-CN: 使用按钮设置剪切板筛选条件
   DeleteApplicationConfirmation:
     en: "Are you sure you want to delete application '{m.ApplicationDescription}'?"
     pl: "Czy na pewno chcesz usunąć aplikację '{m.ApplicationDescription}'?"
+    zh-TW: "確定要刪除應用程式「{m.ApplicationDescription}」嗎？"
+    zh-CN: "确定要删除应用程序“{m.ApplicationDescription}”吗？"
   DeleteTriggerConfirmation:
     en: "Are you sure you want to delete trigger?"
     pl: "Czy na pewno chcesz usunąć zdarzenie?"
+    zh-TW: "確定要刪除此觸發條件嗎？"
+    zh-CN: "确定要删除此触发条件吗？"
   GlobalHotkeyTriggerLabel:
     en: Global hokey
     pl: Globalny skrót klawiszowy
+    zh-TW: 全域快捷鍵
+    zh-CN: 全局快捷键
   HotkeyTriggerLabel:
     en: Keyboard shortcut
     pl: Skrót klawiszowy
+    zh-TW: 鍵盤快捷鍵
+    zh-CN: 键盘快捷键
   PassKeyToSystemLabel:
     en: Pass key to system
     pl: Przekaż klawisz do systemu
+    zh-TW: 將按鍵傳遞給系統
+    zh-CN: 将按键传递给系统
   ManualTriggerLabel:
     en: Run manually from menu
     pl: Uruchomienie z menu
+    zh-TW: 從選單手動執行
+    zh-CN: 从菜单手动运行
   SelectExecutableTitle:
     en: Select executable (.exe, .com)
     pl: Wybierz plik wykonywalny (.exe, .com)
+    zh-TW: 選擇可執行檔（.exe、.com）
+    zh-CN: 选择可执行文件（.exe、.com）
   TestClipboardFilterPassed:
     en: Current clipboard item meets the condition
     pl: Aktualny element schowka spełnia warunek
+    zh-TW: 目前的剪貼簿項目符合條件
+    zh-CN: 当前剪切板项目符合条件
   TestClipboardFilterNotPassed:
     en: Current clipboard item does not meet the condition
     pl: Aktualny element schowka nie spełnia warunku
+    zh-TW: 目前的剪貼簿項目不符合條件
+    zh-CN: 当前剪切板项目不符合条件
   TestClipboardFilterTooltip:
     en: Check if the current clipboard item meets the condition
     pl: Sprawdź czy aktualny element schowka spełnia warunek
+    zh-TW: 檢查目前的剪貼簿項目是否符合條件
+    zh-CN: 检查当前剪切板项目是否符合条件
   Title:
     en: Workflow Settings
     pl: Ustawienia workflow
+    zh-TW: 工作流程設定
+    zh-CN: 工作流设置
   TriggersLabel:
     en: "Trigger by any of the following events:"
     pl: "Wyzwalaj przez dowolne z poniższych zdarzeń:"
+    zh-TW: "由以下任一事件觸發："
+    zh-CN: "由以下任一事件触发："
   WorkflowNameLabel:
     en: Workflow name
     pl: Nazwa workflow
+    zh-TW: 工作流程名稱
+    zh-CN: 工作流名称
 
 WorkflowsListControl:
   GroupName:
     en: Workflows
     pl: Workflows
+    zh-TW: 工作流程
+    zh-CN: 工作流
   Description:
     en: Workflow management
     pl: Tworzenie i zarządzanie workflow
+    zh-TW: 建立與管理工作流程
+    zh-CN: 创建和管理工作流
   DeleteWorkflowConfirmation:
     en: "Are you sure you want to delete '{v.Name}'?"
     pl: "Czy na pewno chcesz usunąć '{v.Name}'?"
+    zh-TW: "確定要刪除「{v.Name}」嗎？"
+    zh-CN: "确定要删除“{v.Name}”吗？"
   CreateWorkflowButton:
     en: Create workflow
     pl: Utwórz workflow
+    zh-TW: 建立工作流程
+    zh-CN: 创建工作流

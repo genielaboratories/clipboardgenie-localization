@@ -2,9 +2,13 @@ AiAgentActivity:
   Name:
     en: AI Agent
     pl: Agent AI
+    zh-TW: AI 代理
+    zh-CN: AI 代理
 
 CopyToClipboardActivity:
   Name:
     en: Copy to clipboard
     pl: Kopiuj do schowka
+    zh-TW: 複製到剪貼簿
+    zh-CN: 复制到剪切板
 
