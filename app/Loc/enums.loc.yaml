@@ -33,12 +33,12 @@ ClipItemFilterExpression:
     zh-CN: 文本
   Url:
     Host:
-      en: Url Host
+      en: URL Host
       pl: Host adresu URL
       zh-TW: URL 主機
       zh-CN: URL 主机
     Path:
-      en: Url Path
+      en: URL Path
       pl: Ścieżka adresu URL
       zh-TW: URL 路徑
       zh-CN: URL 路径
@@ -52,6 +52,11 @@ ClipItemFilterExpression:
       pl: Pełny adres URL
       zh-TW: 完整 URL
       zh-CN: 完整 URL
+    Scheme:
+      en: URL scheme
+      pl: Schemat URL
+      zh-TW: URL 協議
+      zh-CN: URL 协议
 
 
 ClipItemPayloadType:
@@ -267,6 +272,69 @@ ShareItemRetentionOption:
     pl: Po jednym roku
     zh-TW: 一年後
     zh-CN: 一年后
+
+ChangeTextCaseMode:
+  Uppercase:
+    en: Uppercase
+    pl: Wielkie litery
+    zh-TW: 大寫
+    zh-CN: 大写
+  Lowercase:
+    en: Lowercase
+    pl: Małe litery
+    zh-TW: 小寫
+    zh-CN: 小写
+  TitleCase:
+    en: Title Case
+    pl: Pierwsze litery wielkie
+    zh-TW: 標題大小寫
+    zh-CN: 标题大小写
+
+ConvertNamingCaseMode:
+  CamelCase:
+    en: camelCase
+    pl: camelCase
+    zh-TW: camelCase
+    zh-CN: camelCase
+  PascalCase:
+    en: PascalCase
+    pl: PascalCase
+    zh-TW: PascalCase
+    zh-CN: PascalCase
+  SnakeCase:
+    en: snake_case
+    pl: snake_case
+    zh-TW: snake_case
+    zh-CN: snake_case
+  KebabCase:
+    en: kebab-case
+    pl: kebab-case
+    zh-TW: kebab-case
+    zh-CN: kebab-case
+
+ReplaceTextMode:
+  Literal:
+    en: Literal
+    pl: Tekst
+    zh-TW: 文字
+    zh-CN: 文字
+  Regex:
+    en: Regular expression
+    pl: Wyrażenie regularne
+    zh-TW: 正規表達式
+    zh-CN: 正则表达式
+
+ReplaceTextScope:
+  FirstOccurrence:
+    en: First occurrence
+    pl: Pierwsze wystąpienie
+    zh-TW: 第一個符合項目
+    zh-CN: 第一个匹配项
+  AllOccurrences:
+    en: All occurrences
+    pl: Wszystkie wystąpienia
+    zh-TW: 所有符合項目
+    zh-CN: 所有匹配项
 
 SendKeystrokesItemType:
   Text:

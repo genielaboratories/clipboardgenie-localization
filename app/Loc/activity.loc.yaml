@@ -317,6 +317,113 @@ WebhookActivityResponseProcessing:
     zh-TW: 以文字形式複製到剪貼簿
     zh-CN: 以文本形式复制到剪切板
 
+ReplaceTextActivity:
+  Name:
+    en: Replace Text
+    pl: Zamień tekst
+    zh-TW: 取代文字
+    zh-CN: 替换文本
+  SearchLabel:
+    en: Search
+    pl: Szukaj
+    zh-TW: 搜尋
+    zh-CN: 搜索
+  ReplaceWithLabel:
+    en: Replace with
+    pl: Zamień na
+    zh-TW: 取代為
+    zh-CN: 替换为
+  ModeLabel:
+    en: Mode
+    pl: Tryb
+    zh-TW: 模式
+    zh-CN: 模式
+  CaseSensitiveLabel:
+    en: Case sensitive
+    pl: Rozróżniaj wielkość liter
+    zh-TW: 區分大小寫
+    zh-CN: 区分大小写
+  ScopeLabel:
+    en: Replace scope
+    pl: Zakres zamiany
+    zh-TW: 取代範圍
+    zh-CN: 替换范围
+  Validator:
+    SearchRequired:
+      en: Please enter a search text.
+      pl: Wprowadź tekst do wyszukania.
+      zh-TW: 請輸入搜尋文字。
+      zh-CN: 请输入搜索文本。
+
+ChangeTextCaseActivity:
+  Name:
+    en: Change Text Case
+    pl: Zmień wielkość liter
+    zh-TW: 變更文字大小寫
+    zh-CN: 更改文本大小写
+  ModeLabel:
+    en: Change to
+    pl: Zmień na
+    zh-TW: 變更為
+    zh-CN: 更改为
+
+ConvertNamingCaseActivity:
+  Name:
+    en: Convert Naming Case
+    pl: Zmień Naming Case
+    zh-TW: 變更命名 Case
+    zh-CN: 更改命名 Case
+  ModeLabel:
+    en: Convert to
+    pl: Konwertuj na
+    zh-TW: 轉換為
+    zh-CN: 转换为
+
+CleanUrlActivity:
+  Name:
+    en: Clean URL
+    pl: Wyczyść URL
+    zh-TW: 清理網址
+    zh-CN: 清理网址
+  RemoveAllParametersLabel:
+    en: Remove ALL parameters (strip query string completely)
+    pl: Usuń WSZYSTKIE parametry (całkowicie usuń query string)
+    zh-TW: 移除所有參數（完全刪除查詢字串）
+    zh-CN: 删除所有参数（完全删除查询字符串）
+  PresetsLabel:
+    en: Presets
+    pl: Zestawy reguł
+    zh-TW: 預設集
+    zh-CN: 预设集
+  RemoveEmptyParametersLabel:
+    en: Remove empty parameters
+    pl: Usuń puste parametry
+    zh-TW: 移除空白參數
+    zh-CN: 删除空参数
+  Preset:
+    common:
+      en: Common tracking (UTM, Facebook, Google, etc.)
+      pl: Typowe śledzenie (UTM, Facebook, Google itp.)
+      zh-TW: 常見追蹤 (UTM、Facebook、Google 等)
+      zh-CN: 常见追踪 (UTM、Facebook、Google 等)
+    email:
+      en: Email marketing (HubSpot, Marketo)
+      pl: E-mail marketing (HubSpot, Marketo)
+      zh-TW: 電子郵件行銷 (HubSpot、Marketo)
+      zh-CN: 电子邮件营销 (HubSpot、Marketo)
+    affiliate:
+      en: Affiliate links (may break referral tracking)
+      pl: Linki afiliacyjne (może uszkodzić śledzenie poleceń)
+      zh-TW: 聯盟連結（可能會中斷推薦追蹤）
+      zh-CN: 联盟链接（可能会中断推荐追踪）
+
+TextTransformationsCategory:
+  Name:
+    en: Text Transformations
+    pl: Transformacje tekstu
+    zh-TW: 文字轉換
+    zh-CN: 文本转换
+
 ZapierIncomingActionActivity:
   Name:
     en: Incoming actions from Zapier
