@@ -1023,6 +1023,16 @@ ShortcutsSettingsControl:
     pl: Zarządzanie skrótami klawiatury
     zh-TW: 管理應用程式的鍵盤快捷鍵
     zh-CN: 管理应用程序的键盘快捷键
+  AlwaysPasteAsTextDescription:
+    en: When enabled, clipboard items will always be pasted as plain text, regardless of their original format.
+    pl: Po włączeniu, elementy schowka będą zawsze wklejane jako zwykły tekst, niezależnie od ich oryginalnego formatu.
+    zh-TW: 啟用後，剪貼簿項目將始終以純文字形式貼上，無論其原始格式為何。
+    zh-CN: 启用后，剪切板项目将始终以纯文本形式粘贴，无论其原始格式为何。
+  AlwaysPasteAsTextHeader:
+    en: Always paste as text
+    pl: Zawsze wklejaj jako tekst
+    zh-TW: 總是以文字形式貼上
+    zh-CN: 始终以文本形式粘贴
   AppHotKeyDescription:
     en: Set the hotkey used to activate the application.
     pl: Ustaw skrót klawiaturowy używany do aktywacji aplikacji.
